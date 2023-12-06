@@ -1,0 +1,97 @@
+{
+    "home": {
+        "menu": {
+            "title": "<b>Quality</b> Projects, <br/>Buildings <b>for life.</b>",
+            "slider": "home/banner.jpg"
+        },
+        "textBanner": {
+            "title": "Built with <br/>Responsability.",
+            "text": "Excellent location, rigorous projects and quality construction are the pillars of Ponto Urbano. Our institutional video represents these values and shows that your dream home is just one step away!",
+            "timer": [
+                {
+                    "title":"Projetos <br/>Realizados",
+                    "counter": "10"
+                },
+                {
+                    "title":"Reabilitações <br/>Urbanas",
+                    "counter": "03"
+                },
+                {
+                    "title":"Projetos <br/>em Construção",
+                    "counter": "06"
+                }
+            ]
+        },
+        "images": [
+            {
+                "image": "home/destaques/01.jpg",
+                "alt": "Ponto Urbano",
+                "link": "/projetos/golden",
+                "city":"Aveiro",
+                "project":"Puro Golden"
+            },
+            {
+                "image": "home/destaques/02.jpg",
+                "alt": "Ponto Urbano",
+                "link": "/projetos/24ponto33",
+                "city":"Espinho",
+                "project":"24ponto33"
+            },
+            {
+                "image": "home/destaques/03.jpg",
+                "alt": "Ponto Urbano",
+                "link": "/projetos/puro",
+                "city":"Aveiro",
+                "project":"Puro<br/> Homes/Tower"
+            }
+        ],
+        "destaque": {
+            "title": "PROJETOS EM DESTAQUE",
+            "destaques": [
+                {
+                    "nome": "PURO HOMES / TOWER",
+                    "texto": "O empreendimento Puro Homes e Puro Tower está situado numa das mais nobres zonas de Aveiro: o Cais da Fonte Nova. Aqui, é possível aceder ao melhor que a cidade tem para oferecer, sem perder a tranquilidade única que caracteriza esta zona privilegiada. As vastas manchas verdes que o rodeiam permitem desfrutar do contacto com a natureza, sem perder de vista as linhas urbanas que definem esta localização, cuja luminosidade se reflete nos canais da Ria de Aveiro.",
+                    "imagem": "destaque/destaque_Puro.jpg",
+                    "link": "/projetos/puro"
+                },
+                {
+                    "nome": "CINCO AVENIDA",
+                    "texto": "O Cinco Avenida nasce com a reabilitação de uma fachada histórica da cidade, contribuindo para o rejuvenescimento da mais antiga avenida de Aveiro, a Lourenço Peixinho. Este projeto representa a relação perfeita entre a conservação da história e a arquitetura contemporânea. Um edifício moderno, com fachadas revestidas a zinco “rouge terre” e localização privilegiada com acessos alternativos.",
+                    "imagem": "destaque/destaque_Avenida.jpg",
+                    "link": "/projetos/cincoavenida"
+                },
+                {
+                    "nome": "GARDEN",
+                    "texto": "O empreendimento Garden localiza-se na cidade de Ílhavo, a apenas 10 minutos das praias da Barra e da Costa Nova e das cidades de Aveiro e Vagos. Viver em Ílhavo significa qualidade de vida, oferecendo a tranquilidade de um pequeno centro urbano. A localização permite aproveitar as praias, adotar um estilo de vida saudável, praticar vários desportos ao ar livre e usufruir dos vários equipamentos culturais e de lazer numa cidade cujo lema é o mar por tradição.",
+                    "imagem": "destaque/destaque_Garden.jpg",
+                    "link": "/projetos/garden"
+                },
+                {
+                    "nome": "24PONTO33",
+                    "texto": "O empreendimento 24Ponto33 marca a entrada da Ponto Urbano na cidade de Espinho. A apenas 15 minutos do Porto, o edifício oferece qualidade de vida e modernidade. Viver em Espinho significa abandonar o ritmo frenético dos grandes centros urbanos, aproveitar a extensa faixa de praias, adotar um estilo de vida saudável, praticar vários desportos ao ar livre e usufruir dos vários equipamentos culturais e de lazer da cidade.",
+                    "imagem": "destaque/destaque_24Ponto33.jpg",
+                    "link": "/projetos/24ponto33"
+                },
+                {
+                    "nome": "LUX",
+                    "texto": "Localizado numa zona privilegiada da praia da Barra e com uma vista panorâmica que se alonga até ao horizonte, o Lux assenta na criação de um edifício intemporal integrado na envolvente. O conceito do projeto é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
+                    "imagem": "destaque/destaque_Lux.jpg",
+                    "link": "/projetos/lux"
+                }
+            ]
+        },
+        "about": {
+            "title": "SOBRE A NOSSA EQUIPA",
+            "image": "misc/sobreEquipa.jpg",
+            "text": "A PONTO URBANO dedica-se à construção, promoção e reabilitação de empreendimentos de elevada qualidade em locais de excelência. O que move a Ponto Urbano é a força de criar, inovar e chegar mais longe na aplicação de soluções vanguardistas e sustentáveis. A PONTO URBANO dedica-se à construção, promoção e reabilitação de empreendimentos de elevada qualidade em locais de excelência. O que move a Ponto Urbano é a força de criar, inovar e chegar mais longe na aplicação de soluções vanguardistas e sustentáveis.",
+            "link": "/equipa",
+            "linkText": [
+                "CONHEÇA MAIS SOBRE",
+                "A NOSSA EQUIPA"
+            ]
+        },
+        "news": {
+            "title": "LAST NEWS"
+        }
+    }
+}

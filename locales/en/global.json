@@ -1,0 +1,99 @@
+{
+    "global": {
+        "sidebar": [
+            {
+                "text":"Projects",
+                "link":"/projetos",
+                "submenu": true
+            },
+            {
+                "text":"About Us",
+                "link":"/equipa"
+            },
+            {
+                "text":"Contacts",
+                "link":"/contacto"
+            }
+        ],
+        "globalImgs": {
+            "menu": {
+            "logoSide": "homeMenu/side_logo.png",
+            "hamburger": "homeMenu/hamburguer.png"
+            },
+            "header": {
+            "cross": "nav/cross.png",
+            "logo": "nav/logo.png"
+            },
+            "footer": {
+            "fullLogo": "full_logo.png"
+            },
+            "call": "misc/callme.png"
+        },
+        "form": {
+            "cta":{
+                "closed": "CONTACT US!",
+                "opened": "CLOSE"
+            },
+            "nameMissing": "Please enter your name.",
+            "invalidEmail": "Invalid email.",
+            "success": "Message sent.",
+            "contact": {
+                "title": "Looking for<br/> your dreams home?",
+                "message": "Talk to us!",
+                "comercial": [
+                    {
+                        "img": "equipa/comercial/joao-queiros.png",
+                        "name": "João Queirós",
+                        "phone": "+351 912 345 678",
+                        "email": "j.queiros@pontourbano.pt"
+                    },
+                    {
+                        "img": "equipa/comercial/rosa-silva.png",
+                        "name": "Rosa Silva",
+                        "phone": "+351 963 844 810",
+                        "email": "r.silva@pontourbano.pt"
+                    }
+                ]
+            },
+            "name": "First Name:",
+            "surname": "Surname:",
+            "phone": "Phone:",
+            "email": "Email:",
+            "city": "City:",
+            "interest": "I am interested in knowing more about...",
+            "citygroup": [
+            {
+                "title": "Aveiro",
+                "group": [
+                "Cinco Avenida",
+                "Puro Homes/Tower",
+                "Green Villas",
+                "V'llar"
+                ]
+            },
+            {
+                "title": "Porto",
+                "group": [
+                "Point"
+                ]
+            },
+            {
+                "title": "Ílhavo",
+                "group": [
+                "Garden",
+                "Lux"
+                ]
+            },
+            {
+                "title": "Espinho",
+                "group": [
+                "24Ponto33"
+                ]
+            }
+            ],
+            "message": "Message:",
+            "terms": "By sending your message you agree and accept our terms and conditions and our privacy policy.",
+            "send": "Send"
+        }
+    }
+}

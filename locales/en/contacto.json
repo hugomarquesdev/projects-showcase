@@ -1,0 +1,46 @@
+{
+    "contacto": {
+        "menu": {
+            "title": "<b>Contact</b><br/> Us",
+            "slider": "contacto/banner.jpg"
+        },
+        "contact": [
+            {
+                "icon":"images/email.svg",
+                "text":"geral@pontourbano.pt",
+                "textLink":"mailto:geral@pontourbano.pt",
+                "text2":"+351 234 249 468",
+                "text2Link":"tel:+351234249468"
+            },
+            {
+                "icon":"images/email.svg",
+                "text":"comercial@pontourbano.pt",
+                "textLink":"mailto:comercial@pontourbano.pt",
+                "text2":"+351 968 732 504",
+                "text2Link":"tel:+351968732504"
+            },
+            {
+                "icon":"images/pin.svg",
+                "text":"Rua da Paz nº 192 (Espaço BIZ)<br/> Quinta do Loureiro",
+                "textLink":"https://www.google.pt/maps/place/PONTO+URBANO+-+CONSULTORES+IMOBILI%C3%81RIOS,+LDA/@40.6673631,-8.6029497,17z/data=!3m1!4b1!4m5!3m4!1s0xd2398ef6abdb0c7:0x158720bb0fa6595c!8m2!3d40.6673346!4d-8.6007492?hl=pt-PT&authuser=0",
+                "text2":"3800-587 | Aveiro - PT",
+                "text2Link":"https://www.google.pt/maps/place/PONTO+URBANO+-+CONSULTORES+IMOBILI%C3%81RIOS,+LDA/@40.6673631,-8.6029497,17z/data=!3m1!4b1!4m5!3m4!1s0xd2398ef6abdb0c7:0x158720bb0fa6595c!8m2!3d40.6673346!4d-8.6007492?hl=pt-PT&authuser=0"
+            }
+        ],
+        "form": {
+            "name":"Name",
+            "surname":"Surname",
+            "phone":"Phone",
+            "email":"E-mail",
+            "city":"City",
+            "message":"Message",
+            "newsletter":"I want to receive the Newsletter",
+            "terms":"Declaro que li, compreendi e aceito os termos e condições e a política de privacidade.",
+            "warning": "By sending your message you agree and accept our terms and conditions and our privacy policy.",
+            "send":"Send",
+            "nameMissing": "Please enter your name.",
+            "invalidEmail": "Invalid email.",
+            "success": "Message sent."
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="41" viewBox="0 0 40 41">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}
+        </style>
+    </defs>
+    <g id="Componente_18_9" data-name="Componente 18 – 9" style="opacity:.824">
+        <g id="Retângulo_341" data-name="Retângulo 341" style="stroke:#ebebeb;fill:none">
+            <path style="stroke:none" d="M0 0h40v41H0z"/>
+            <path style="fill:none" d="M.5.5h39v40H.5z"/>
+        </g>
+        <g id="Grupo_591" data-name="Grupo 591" transform="translate(-563.303 -85.849)">
+            <g id="Grupo_573" data-name="Grupo 573" transform="translate(576.137 93.849)">
+                <circle id="Elipse_44" data-name="Elipse 44" class="cls-3" cx="5.176" cy="5.176" r="5.176" transform="rotate(-22.61 9.954 1.99)"/>
+            </g>
+            <g id="Grupo_574" data-name="Grupo 574" transform="translate(573.303 107.564)">
+                <path id="Caminho_6743" data-name="Caminho 6743" class="cls-3" d="M582.905 113.864a9.6 9.6 0 0 0-9.6 9.6 2.519 2.519 0 0 0 2.52 2.52h14.165a2.52 2.52 0 0 0 2.52-2.52 9.6 9.6 0 0 0-9.605-9.6z" transform="translate(-573.303 -113.864)"/>
+            </g>
+        </g>
+    </g>
+</svg>

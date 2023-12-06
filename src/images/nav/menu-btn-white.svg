@@ -1,0 +1,15 @@
+<svg id="Componente_13_2" data-name="Componente 13 – 2" xmlns="http://www.w3.org/2000/svg" width="34.343" height="23.754">
+    <defs>
+        <style>
+            .cls-1{fill:#ebebeb}
+        </style>
+    </defs>
+    <path id="Retângulo_10" data-name="Retângulo 10" class="cls-1" d="M0 0h4.354v4.354H0z"/>
+    <path id="Retângulo_12" data-name="Retângulo 12" class="cls-1" transform="translate(0 19.4)" d="M0 0h4.354v4.354H0z"/>
+    <g id="Grupo_632" data-name="Grupo 632">
+        <path id="Retângulo_9" data-name="Retângulo 9" class="cls-1" transform="translate(6.481)" d="M0 0h27.861v4.354H0z"/>
+        <path id="Retângulo_11" data-name="Retângulo 11" class="cls-1" transform="translate(6.481 19.4)" d="M0 0h27.861v4.354H0z"/>
+        <path id="Retângulo_13" data-name="Retângulo 13" class="cls-1" transform="translate(0 9.7)" d="M0 0h27.861v4.354H0z"/>
+    </g>
+    <path id="Retângulo_14" data-name="Retângulo 14" class="cls-1" transform="translate(29.835 9.7)" d="M0 0h4.354v4.354H0z"/>
+</svg>

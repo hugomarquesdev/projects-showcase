@@ -1,0 +1,90 @@
+{
+    "portfolio": {
+        "menu": {
+            "title": "<b>Large</b> Projects, <br/>Lot of <b>Planning.</b>",
+            "slider": "portfolio/banner.jpg"
+        },
+        "projetos": {
+            "filter": "projetos/filter.png",
+            "content": [
+            {
+                "title": "V’llar",
+                "image": "projetos/newCards/Villar-Card.jpg",
+                "city": "Aveiro",
+                "link": "/projetos/villar",
+                "linkText": "More info"
+            },
+            {
+                "title": "Green Villas",
+                "image": "projetos/newCards/Green-Villas-Card.jpg",
+                "city": "Aveiro",
+                "link": "/projetos/green-villas",
+                "linkText": "More info"
+            },
+            {
+                "title": "Puro Homes / Tower",
+                "image": "projetos/newCards/Puro-Card.jpg",
+                "city": "Aveiro",
+                "link": "/projetos/puro",
+                "linkText": "More info"
+            },
+            {
+                "title": "Cinco Avenida",
+                "image": "projetos/newCards/CincoAvenida-Card.jpg",
+                "city": "Aveiro",
+                "link": "/projetos/cincoavenida",
+                "linkText": "More info"
+            },
+            {
+                "title": "Garden",
+                "image": "projetos/newCards/Garden-Card.jpg",
+                "city": "Ílhavo",
+                "link": "/projetos/garden",
+                "linkText": "More info"
+            },
+            {
+                "title": "24Ponto33",
+                "image": "projetos/newCards/Ponto-Card.jpg",
+                "city": "Espinho",
+                "link": "/projetos/24ponto33",
+                "linkText": "More info"
+            },
+            {
+                "title": "Lux",
+                "image": "projetos/newCards/Lux-Card.jpg",
+                "city": "Barra",
+                "link": "/projetos/lux",
+                "linkText": "More info"
+            },
+            {
+                "title": "Spot",
+                "image": "projetos/newCards/Spot-Card.jpg",
+                "city": "Aveiro",
+                "link": "/projetos/spot",
+                "linkText": "More info"
+            },
+            {
+                "title": "Point",
+                "image": "projetos/newCards/Point-Card.jpg",
+                "city": "Porto - Paranhos",
+                "link": "/projetos/point",
+                "linkText": "More info"
+            },
+            {
+                "title": "Neon",
+                "image": "projetos/newCards/Neon-Card.jpg",
+                "city": "Aveiro",
+                "link": "/projetos/neon",
+                "linkText": "More info"
+            }
+            ]
+        },
+        "about": {
+            "title": "SOBRE A NOSSA EQUIPA",
+            "image": "misc/sobreEquipa.jpg",
+            "text": "A formação de uma equipa multidisciplinar para o desenvolvimento de projetos é uma característica marcante no modo de atuação da Ponto Urbano. Contamos com um conjunto de profissionais qualificados e com uma vasta experiência nas suas áreas da atividade, que numa perspetiva colaborativa, desenvolvem um trabalho em prol de um objetivo comum: a melhor solução para o melhor projeto.",
+            "link": "/equipa",
+            "linkText": ["CONHEÇA A NOSSA EQUIPA"]
+        }
+    }
+}

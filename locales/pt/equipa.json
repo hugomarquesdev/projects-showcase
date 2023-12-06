@@ -1,0 +1,93 @@
+{
+    "equipa": {
+        "menu": {
+            "title": "A qualidade de<br> construção <b>tem<br/> uma marca</b>",
+            "slider": "equipa/banner.jpg"
+        },
+        "content": [
+            {
+                "text": "Estamos <b>há mais de 30 anos</b> a construir com responsabilidade."
+            },
+            {
+                "text": "Grandes projetos requerem <b>muito planeamento e organização.</b>"
+            },
+            {
+                "text": "Na ponto urbano não se saltam procedimentos. <b>O rigor no projeto e a qualidade na obra</b> são fatores difenciais dos quais não abdicamos."
+            }
+        ],
+        "parallax": "equipa/equipaParallax.png",
+        "introText": [
+            "NA PONTO URBANO ACREDITAMOS NO FUTURO!",
+            "ACREDITAMOS porque estamos conscientes do nosso trabalho.",
+            "ACREDITAMOS porque respeitamos o que fazemos todos os dias.",
+            "ACREDITAMOS porque construímos com responsabilidade."
+        ],
+        "team": {
+            "title": "Nossa Equipa:",
+            "quote": "“O investimento na área do imobiliário pode ser muito seguro e rentável quando dimensionado com responsabilidade. Esta é a premissa dos imóveis com carimbo Ponto Urbano.”",
+            "members": [
+                {
+                    "name": "Paulo Martins",
+                    "email": "pmartins@pontourbano.pt",
+                    "title": "CEO",
+                    "image": "equipa/2021/paulo-martins.jpg"
+                },
+                {
+                    "name": "Pedro Oliveira",
+                    "email": "poliveira@pontourbano.pt",
+                    "title": "Diretor de Produção",
+                    "image": "equipa/2021/pedro-oliveira.png"
+                },
+                {
+                    "name": "Pedro André Fernandes",
+                    "email": "pfernandes@pontourbano.pt",
+                    "title": "Diretor de Obra",
+                    "image": "equipa/2021/pedro-fernandes.png"
+                },
+                {
+                    "name": "Rafael Marques",
+                    "email": "rmarques@pontourbano.pt",
+                    "title": "Diretor de Obra",
+                    "image": "equipa/2021/rafael-marques.png"
+                },
+                {
+                    "name": "João Queirós",
+                    "email": "jqueiros@pontourbano.pt",
+                    "title": "Comercial",
+                    "image": "equipa/2021/joao-queiros.png"
+                },
+                {
+                    "name": "Rosa Silva",
+                    "email": "rsilva@pontourbano.pt",
+                    "title": "Comercial",
+                    "image": "equipa/2021/rosa-silva.png"
+                },
+                {
+                    "name": "Mário Alves",
+                    "email": "malves@pontourbano.pt",
+                    "title": "Arquiteto",
+                    "image": "equipa/2021/mario-alves.png"
+                },
+                {
+                    "name": "Bruno Paiva",
+                    "email": "bpaiva@pontourbano.pt",
+                    "title": "Projetista",
+                    "image": "equipa/2021/bruno-paiva.png"
+                },       
+                {
+                    "name": "Sara Dias",
+                    "email": "scosta@pontourbano.pt",
+                    "title": "Gestora Financeira",
+                    "image": "equipa/2021/sara-dias.png"
+                }
+            ]
+        },
+        "about": {
+            "title": "SOBRE A NOSSA EQUIPA",
+            "image": "misc/sobreEquipa.jpg",
+            "text": "A PONTO URBANO dedica-se à construção, promoção e reabilitação de empreendimentos de elevada qualidade em locais de excelência. O que move a Ponto Urbano é a força de criar, inovar e chegar mais longe na aplicação de soluções vanguardistas e sustentáveis. A PONTO URBANO dedica-se à construção, promoção e reabilitação de empreendimentos de elevada qualidade em locais de excelência. O que move a Ponto Urbano é a força de criar, inovar e chegar mais longe na aplicação de soluções vanguardistas e sustentáveis.",
+            "link": "/equipa",
+            "linkText": ["CONHEÇA MAIS SOBRE", "A NOSSA EQUIPA"]
+        }
+    }
+}
