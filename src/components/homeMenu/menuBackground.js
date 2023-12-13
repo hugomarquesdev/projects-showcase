@@ -3,11 +3,11 @@ import { Link } from "gatsby"
 
 import styled, { css } from "styled-components"
 import Div100vh from "react-div-100vh"
-import { Image } from '../Images'
+import { Image } from "../Images"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import { closeNav } from "./panel"
-import logo from "../../images/misc/Logo-CantoSuperiorDireito.svg"
+import logo from "../../images/logo.svg"
 
 const SBS = ({
   data,
@@ -84,48 +84,37 @@ const SBS = ({
         data.map((data, i) => (
           <div key={"homeSlide" + i} className="combo">
             <div className="slideContainer" id={"slide" + i}>
-                <Image 
-                    src={data.image} 
-                    alt={data.alt && data.alt}
-                    key={i}
-                    className="slide"
-                    style={{ height: '100%' }}
-                />
+              <Image
+                src={data.image}
+                alt={data.alt && data.alt}
+                key={i}
+                className="slide"
+                style={{ height: "100%" }}
+              />
             </div>
             <div className="bottomCont opac" id={"slideTxt" + i}>
               {data.title_image ? (
                 <div className="title-logo">
-                    <Image 
-                        src={data.title_image} 
-                        alt={data.alt && data.alt}
-                        style={{ width: "100%", objectFit: "cover" }}
-                    />
+                  <Image
+                    src={data.title_image}
+                    alt={data.alt && data.alt}
+                    style={{ width: "100%", objectFit: "cover" }}
+                  />
                 </div>
               ) : (
                 data.title && (
-                  <h1 
-                    className={" text txtTitle txtBreak"}
-                  >
-                    {data.title}
-                  </h1>
+                  <h1 className={" text txtTitle txtBreak"}>{data.title}</h1>
                 )
               )}
               {data.text && Array.isArray(data.text) ? (
                 data.text.map((data, i) => (
-                  <h1
-                    key={"txt" + i}
-                    className={" text txtBot txtBreak"}
-                  >
+                  <h1 key={"txt" + i} className={" text txtBot txtBreak"}>
                     {data}
                     <br></br>
                   </h1>
                 ))
               ) : (
-                <h1 
-                    className={" text txtBot txtBreak"}
-                >
-                  {data.text}
-                </h1>
+                <h1 className={" text txtBot txtBreak"}>{data.text}</h1>
               )}
               <p className="txtBot isLast"></p>
             </div>
@@ -133,65 +122,42 @@ const SBS = ({
         ))
       ) : (
         <div className="fixedImage">
-            {wordpressImage ?
-                <GatsbyImage 
-                    image={data.image} 
-                    alt={data.image.alt || ''}
-                    style={{ height: `100%` }}
-                />
-            :
-                <Image 
-                    src={data} 
-                    alt={data.alt && data.alt}
-                    style={{ height: `100%` }}
-                />
-        }
+          {wordpressImage ? (
+            <GatsbyImage
+              image={data.image}
+              alt={data.image.alt || ""}
+              style={{ height: `100%` }}
+            />
+          ) : (
+            <Image
+              src={data}
+              alt={data.alt && data.alt}
+              style={{ height: `100%` }}
+            />
+          )}
         </div>
       )}
       {filter && (
-        <Image 
-            src={filter} 
-            alt={data.alt && data.alt}
-            style={{ width: `100%`, position: "absolute" }}
-            filter
+        <Image
+          src={filter}
+          alt={data.alt && data.alt}
+          style={{ width: `100%`, position: "absolute" }}
+          filter
         />
       )}
       {title ? (
         <div className="bottomCont">
-          {title.title && (
-            <h1 
-                className={" text txtTitle"}
-            >
-              {title.title}
-            </h1>
-          )}
-          {title && (
-           <h1 
-                className={" text txtTitle"}
-            >
-              {title}
-            </h1>
-          )}
-          {title.text && (
-            <h1 className={" text txtBot"}>{title.text}</h1>
-          )}
+          {title.title && <h1 className={" text txtTitle"}>{title.title}</h1>}
+          {title && <h1 className={" text txtTitle"}>{title}</h1>}
+          {title.text && <h1 className={" text txtBot"}>{title.text}</h1>}
           <p className="txtBot isLast"></p>
         </div>
       ) : (
         <div className="bottomCont hasSlider">
-          {all.title && (
-            <h1 
-                className={" text txtTitle"}
-            >
-              {all.title}
-            </h1>
-          )}
+          {all.title && <h1 className={" text txtTitle"}>{all.title}</h1>}
           {Array.isArray(all.text) ? (
             all.text.map((data, i) => (
-              <h1
-                key={"txt" + i}
-                className={" text txtBot txtList"}
-              >
+              <h1 key={"txt" + i} className={" text txtBot txtList"}>
                 {data}
                 <br></br>
               </h1>
@@ -211,13 +177,13 @@ const SBS = ({
                       key={"sliderPick" + i}
                       id={"pickerSlide" + i}
                     >
-                        <Image 
-                            src={data} 
-                            key={i}
-                            className="pickerSlideImg"
-                            style={{ height: `100%` }}
-                            alt={data.alt && data.alt}
-                        />
+                      <Image
+                        src={data}
+                        key={i}
+                        className="pickerSlideImg"
+                        style={{ height: `100%` }}
+                        alt={data.alt && data.alt}
+                      />
                     </button>
                   ))}
                 </div>
@@ -238,13 +204,13 @@ const SBS = ({
                       key={"sliderPick" + i}
                       id={"pickerSlide" + i}
                     >
-                      <Image 
-                            src={data} 
-                            key={i}
-                            className="pickerSlideImg"
-                            style={{ height: `10rem` }}
-                            alt={data.alt && data.alt}
-                        />
+                      <Image
+                        src={data}
+                        key={i}
+                        className="pickerSlideImg"
+                        style={{ height: `10rem` }}
+                        alt={data.alt && data.alt}
+                      />
                     </button>
                   ))}
                 </div>
@@ -269,7 +235,7 @@ const StyledBackground = styled(Div100vh)`
   .fixedImage {
     height: 100%;
 
-    ${props =>
+    ${(props) =>
       props.isBlog &&
       css`
         background: black;
@@ -286,7 +252,7 @@ const StyledBackground = styled(Div100vh)`
     left: 0;
     height: 100%;
     width: 100%;
-    ${props =>
+    ${(props) =>
       !props.fixed &&
       css`
         animation: kenburns 10s infinite;
@@ -325,7 +291,7 @@ const StyledBackground = styled(Div100vh)`
       padding: 0 10vw;
       letter-spacing: 2px;
       margin-left: 7.3%;
-      ${props =>
+      ${(props) =>
         props.isNews &&
         css`
           text-transform: uppercase;
@@ -495,7 +461,7 @@ const StyledBackground = styled(Div100vh)`
       display: flex;
     }
 
-    ${props =>
+    ${(props) =>
       props.hasSlider &&
       css`
         .slideContainer {
@@ -530,7 +496,7 @@ const StyledBackground = styled(Div100vh)`
       margin-bottom: 0.5rem;
     }
 
-    ${props =>
+    ${(props) =>
       props.hasSlider &&
       css`
         .slideContainer {

@@ -1,2852 +1,909 @@
 {
-    "projetos": {
-        "cards": [
+  "projetos": {
+    "cards": [
+      {
+        "title": "Puro Golden",
+        "image": "projetos/newCards/01.jpg",
+        "city": "Aveiro",
+        "link": "/projetos/golden",
+        "linkText": "See more",
+        "venda": true,
+        "portfolio": false
+      },
+      {
+        "title": "V’llar",
+        "image": "projetos/newCards/07.jpg",
+        "city": "São Bernardo",
+        "link": "/projetos/villar",
+        "linkText": "See more",
+        "venda": true,
+        "portfolio": true
+      },
+      {
+        "title": "Green Villas",
+        "image": "projetos/newCards/08.jpg",
+        "city": "São Bernardo",
+        "link": "/projetos/green-villas",
+        "linkText": "See more",
+        "venda": true,
+        "portfolio": true
+      },
+      {
+        "title": "Garden",
+        "image": "projetos/newCards/09.jpg",
+        "city": "Ílhavo",
+        "link": "/projetos/garden",
+        "linkText": "See more",
+        "venda": true,
+        "portfolio": true
+      },
+      {
+        "title": "24Ponto33",
+        "image": "projetos/newCards/10.jpg",
+        "city": "Espinho",
+        "link": "/projetos/24ponto33",
+        "linkText": "See more",
+        "venda": true,
+        "portfolio": true
+      },
+      {
+        "title": "Lux",
+        "image": "projetos/newCards/11.jpg",
+        "city": "Barra",
+        "link": "/projetos/lux",
+        "linkText": "See more",
+        "venda": true,
+        "portfolio": true
+      },
+      {
+        "title": "Puro Homes / Tower",
+        "image": "projetos/newCards/12.jpg",
+        "city": "Aveiro",
+        "link": "/projetos/puro",
+        "linkText": "See more",
+        "venda": false,
+        "portfolio": true
+      },
+      {
+        "title": "Cinco Avenida",
+        "image": "projetos/newCards/13.jpg",
+        "city": "Aveiro",
+        "link": "/projetos/cincoavenida",
+        "linkText": "See more",
+        "venda": false,
+        "portfolio": true
+      },
+      {
+        "title": "Spot",
+        "image": "projetos/newCards/14.jpg",
+        "city": "Aveiro",
+        "link": "/projetos/spot",
+        "linkText": "See more",
+        "venda": false,
+        "portfolio": true
+      },
+      {
+        "title": "Point",
+        "image": "projetos/newCards/15.jpg",
+        "city": "Porto - Paranhos",
+        "link": "/projetos/point",
+        "linkText": "See more",
+        "venda": false,
+        "portfolio": true
+      },
+      {
+        "title": "Neon",
+        "image": "projetos/newCards/16.jpg",
+        "city": "Aveiro",
+        "link": "/projetos/neon",
+        "linkText": "See more",
+        "venda": false,
+        "portfolio": true
+      }
+    ],
+    "projects": {
+      "cinco": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Cinco Avenida",
+          "text": "The rehabilitation of Av. Dr. Lourenço Peixinho",
+          "slider": "projetos/cincoAvenida/slider/01.jpg",
+          "alt": "Cinco Avenida"
+        },
+        "image": {
+          "image": "projetos/cincoAvenida/cover.jpg",
+          "alt": "Cinco Avenida"
+        },
+        "info": {
+          "title": "Cinco Avenida was born from the will to rehabilitate a historical façade of the city, contributing to the rejuvenation of the oldest avenue of Aveiro, Lourenço Peixinho Avenue.",
+          "text": "This project represents the perfect relationship between the conservation of history and contemporary architecture. A modern building, with “Facades” coated in “Rouge Terre” zinc texture and a privileged location, with alternative accesses, this is Cinco Avenida.",
+          "image1": "projetos/cincoAvenida/slider/02.jpg",
+          "alt1": "Cinco Avenida",
+          "image2": "projetos/cincoAvenida/slider/01.jpg",
+          "alt2": "Cinco Avenida",
+          "features": {
+            "image": "projetos/cincoAvenida/slider/03.jpg",
+            "alt": "Cinco Avenida",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "7 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T0 - T3"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "45m² - 151m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Aveiro",
+          "title": "Privileged<br/> Location",
+          "places": [
             {
-                "title": "Puro Golden",
-                "image": "projetos/newCards/Golden-Card.jpg",
-                "city": "Aveiro",
-                "link": "/projetos/golden",
-                "linkText": "See more",
-                "venda": true,
-                "portfolio": false
+              "place": "Capitania de Aveiro"
             },
             {
-                "title": "V’llar",
-                "image": "projetos/newCards/Villar-Card.jpg",
-                "city": "São Bernardo",
-                "link": "/projetos/villar",
-                "linkText": "See more",
-                "venda": true,
-                "portfolio": true
+              "place": "Ria de Aveiro"
             },
             {
-                "title": "Green Villas",
-                "image": "projetos/newCards/Green-Villas-Card.jpg",
-                "city": "São Bernardo",
-                "link": "/projetos/green-villas",
-                "linkText": "See more",
-                "venda": true,
-                "portfolio": true
+              "place": "Theatre"
             },
             {
-                "title": "Garden",
-                "image": "projetos/newCards/Garden-Card.jpg",
-                "city": "Ílhavo",
-                "link": "/projetos/garden",
-                "linkText": "See more",
-                "venda": true,
-                "portfolio": true
+              "place": "Congress Center"
             },
             {
-                "title": "24Ponto33",
-                "image": "projetos/newCards/Ponto-Card.jpg",
-                "city": "Espinho",
-                "link": "/projetos/24ponto33",
-                "linkText": "See more",
-                "venda": true,
-                "portfolio": true
-            },
-            {
-                "title": "Lux",
-                "image": "projetos/newCards/Lux-Card.jpg",
-                "city": "Barra",
-                "link": "/projetos/lux",
-                "linkText": "See more",
-                "venda": true,
-                "portfolio": true
-            },
-            {
-                "title": "Puro Homes / Tower",
-                "image": "projetos/newCards/Puro-Card.jpg",
-                "city": "Aveiro",
-                "link": "/projetos/puro",
-                "linkText": "See more",
-                "venda": false,
-                "portfolio": true
-            },
-            {
-                "title": "Cinco Avenida",
-                "image": "projetos/newCards/CincoAvenida-Card.jpg",
-                "city": "Aveiro",
-                "link": "/projetos/cincoavenida",
-                "linkText": "See more",
-                "venda": false,
-                "portfolio": true
-            },
-            {
-                "title": "Spot",
-                "image": "projetos/newCards/Spot-Card.jpg",
-                "city": "Aveiro",
-                "link": "/projetos/spot",
-                "linkText": "See more",
-                "venda": false,
-                "portfolio": true
-            },
-            {
-                "title": "Point",
-                "image": "projetos/newCards/Point-Card.jpg",
-                "city": "Porto - Paranhos",
-                "link": "/projetos/point",
-                "linkText": "See more",
-                "venda": false,
-                "portfolio": true
-            },
-            {
-                "title": "Neon",
-                "image": "projetos/newCards/Neon-Card.jpg",
-                "city": "Aveiro",
-                "link": "/projetos/neon",
-                "linkText": "See more",
-                "venda": false,
-                "portfolio": true
+              "place": "Train Station"
             }
-        ],
-        "projects": {
-            "cinco": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Cinco Avenida",
-                    "text": "The rehabilitation of Av. Dr. Lourenço Peixinho",
-                    "slider": "projetos/cincoAvenida/slider/CincoAvenidaDestaque-Banner.jpg",
-                    "alt": "Cinco Avenida"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaDestaque-Banner.jpg",
-                            "title": "CINCO AVENIDA",
-                            "text": [
-                                "The rehabilitation of Av. Dr. Lourenço Peixinho",
-                                "in the city of Aveiro"
-                            ]
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaQuarto-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaSala02-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaFachada-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaSala03-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaSala-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaCozinha-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaInterior-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/cincoAvenida/slider/CincoAvenidaInterior02-Banner.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/cincoAvenida/slider/CincoAvenidaDestaque-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaQuarto-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaSala02-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaFachada-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaSala03-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaSala-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaCozinha-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaInterior-Strip.jpg",
-                        "projetos/cincoAvenida/slider/CincoAvenidaInterior02-Strip.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/cincoAvenida/cover_CincoAvenida.jpg",
-                    "alt": "Cinco Avenida"
-                },
-                "images-old": {
-                    "fachada": "projetos/cincoAvenida/cover_CincoAvenida.jpg",
-                    "fachadaAlt": "projetos/cincoAvenida/cover_CincoAvenida02.jpg"
-                },
-                "info": {
-                    "title": "Cinco Avenida was born from the will to rehabilitate a historical façade of the city, contributing to the rejuvenation of the oldest avenue of Aveiro, Lourenço Peixinho Avenue.",
-                    "text": "This project represents the perfect relationship between the conservation of history and contemporary architecture. A modern building, with “Facades” coated in “Rouge Terre” zinc texture and a privileged location, with alternative accesses, this is Cinco Avenida.",
-                    "image1": "projetos/cincoAvenida/slider/CincoAvenidaQuarto-Banner.jpg",
-                    "alt1": "Cinco Avenida",
-                    "image2": "projetos/cincoAvenida/slider/CincoAvenidaDestaque-Banner.jpg",
-                    "alt2": "Cinco Avenida",
-                    "features": {
-                        "image": "projetos/cincoAvenida/slider/CincoAvenidaSala03-Banner.jpg",
-                        "alt": "Cinco Avenida",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "7 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T0 - T3"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "45m² - 151m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "CINCO AVENIDA",
-                    "first": "Cinco Avenida was born from the will to rehabilitate a historical façade of the city, contributing to the rejuvenation of the oldest avenue of Aveiro, Lourenço Peixinho Avenue",
-                    "second": "This project represents the perfect relationship between the conservation of history and contemporary architecture. A modern building, with “Facades” coated in “Rouge Terre” zinc texture and a privileged location, with alternative accesses, this is Cinco Avenida.",
-                    "symbols": [
-                        {
-                            "nome": "CINCO AVENIDA",
-                            "pisos": "4 Floors",
-                            "estacionamento": "Parking",
-                            "apartamentos": "7 Flats",
-                            "tipologia": "T0 - T3",
-                            "area": "45m² - 151m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Capitania de Aveiro"
-                        },
-                        {
-                            "place": "Ria de Aveiro"
-                        },
-                        {
-                            "place": "Theatre"
-                        },
-                        {
-                            "place": "Congress Center"
-                        },
-                        {
-                            "place": "Train Station"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/cincoAvenida/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "CINCO AVENIDA",
-                    "btnLink": "https://www.google.pt/maps/place/40%C2%B038'35.3%22N+8%C2%B038'43.6%22W/@40.643126,-8.6459802,212m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d40.6431254!4d-8.6454327",
-                    "default": {
-                        "top": "-25%",
-                        "left": "-102%",
-                        "topM": "0%",
-                        "leftM": "-131%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "CINCO AVENIDA",
-                            "legenda": "Centro comercial a céu aberto com uma arquitetura única, ideal para quem prefere andar às compras num espaço arejado. Localizado no centro da cidade e aberto durante toda a semana, o Fórum de Aveiro está a cerca de 10 minutos do Cinco Avenida.",
-                            "imagem": "projetos/mapa/pontointeresse_Forum.jpg",
-                            "top": "-25%",
-                            "left": "-102%",
-                            "topM": "0%",
-                            "leftM": "-131%"
-                        },
-                        {
-                            "nome": "CAPITANIA OF AVEIRO",
-                            "legenda": "Centro comercial a céu aberto com uma arquitetura única, ideal para quem prefere andar às compras num espaço arejado. Localizado no centro da cidade e aberto durante toda a semana, o Fórum de Aveiro está a cerca de 10 minutos do Cinco Avenida.",
-                            "imagem": "projetos/mapa/pontointeresse_Forum.jpg",
-                            "top": "-80%",
-                            "left": "-21%",
-                            "topM": "-36%",
-                            "leftM": "-34%"
-                        },
-                        {
-                            "nome": "RIA DE AVEIRO",
-                            "legenda": "O percurso até à estação dos comboios pode ser feito a pé, numa distância de apenas 10 minutos. O nascimento do empreendimento, junto à estação de Aveiro, traz uma nova centralidade à cidade.",
-                            "imagem": "projetos/mapa/pontointeresse_Estacao.jpg",
-                            "top": "-99%",
-                            "left": "-63%",
-                            "topM": "-47%",
-                            "leftM": "-85%"
-                        },
-                        {
-                            "nome": "THEATRE",
-                            "legenda": "A 5 minutos a pé do Cinco Avenida, neste mercado retalhista, localizado no coração da cidade, é possível comprar fruta, produtos hortícolas, carnes, peixes ou outros géneros alimentícios.",
-                            "imagem": "projetos/mapa/pontointeresse_Mercado.jpg",
-                            "top": "-150%",
-                            "left": "-2%",
-                            "topM": "-79%",
-                            "leftM": "-11%"
-                        },
-                        {
-                            "nome": "CONGRESS CENTRE",
-                            "legenda": "O edifício emblemático da arquitetura industrial aveirense, a Fábrica Jerónimo Pereira de Campos, atual Centro Cultural e de Congressos de Aveiro. Aberto desde 1995, o edifício recebe anualmente congressos, debates, exposições e espetáculos. O espaço é ainda a sede dos serviços da Câmara Municipal de Aveiro.",
-                            "imagem": "projetos/mapa/pontointeresse_Congressos.jpg",
-                            "top": "-211%",
-                            "left": "-122%",
-                            "topM": "-120%",
-                            "leftM": "-156%"
-                        },
-                        {
-                            "nome": "TRAIN STATION",
-                            "legenda": "Localizado junto ao canal da Ria de Aveiro, em frente ao Centro Cultural e de Congressos, o hotel foi inaugurado em 2005 e é o reflexo da arquitetura contemporânea.",
-                            "imagem": "projetos/mapa/pontointeresse_Hotel.jpg",
-                            "top": "-25%",
-                            "left": "-148%",
-                            "topM": "0%",
-                            "leftM": "-187%"
-                        }
-                    ]
-                },
-                "texturas-old": [
-                    {
-                        "nome": "EXTERIOR",
-                        "imagem": "projetos/cincoAvenida/CINCO.png",
-                        "texto": [
-                            "No Cinco Avenida foi possível reabilitar a fachada ao manter o seu traço original e assumindo, desta forma, o compromisso com o legado arquitetónico. As linhas direitas conferem-lhe um toque moderno e arrojado. O tom e textura zinco “rouge terre” reforçam a sua contemporaneidade."
-                        ],
-                        "material1": {
-                            "nome": "Textura Pedra Interior",
-                            "imagem": "projetos/cincoAvenida/texturas/textura_pedra_interior.jpg"
-                        },
-                        "material2": {
-                            "nome": "Textura Zinco Rouge",
-                            "imagem": "projetos/cincoAvenida/texturas/textura_zinc_rouge.jpg"
-                        }
-                    }
-                ],
-                "slider-old": [
-                    {
-                        "nome": "WC",
-                        "imagem": "projetos/cincoAvenida/interiores/slider_WC.jpg"
-                    },
-                    {
-                        "nome": "SALA DE ESTAR",
-                        "imagem": "projetos/cincoAvenida/interiores/slider_Sala.jpg"
-                    },
-                    {
-                        "nome": "SALA DE ESTAR",
-                        "imagem": "projetos/cincoAvenida/interiores/slider_Sala02.jpg"
-                    },
-                    {
-                        "nome": "SALA DE JANTAR",
-                        "imagem": "projetos/cincoAvenida/interiores/slider_SalaJantar.jpg"
-                    },
-                    {
-                        "nome": "QUARTO",
-                        "imagem": "projetos/cincoAvenida/interiores/slider_Quarto.jpg"
-                    }
-                ],
-                "lifestyl-olde": {
-                    "title": "COMO É VIVER NO CINCO AVENIDA",
-                    "img1": "projetos/cincoAvenida/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "Viver no Cinco Avenida é desfrutar de um apartamento aconchegante e estiloso, simples e jovem.",
-                        "O casamento entre o branco e a madeira é a combinação perfeita para um ambiente sóbrio e caloroso.",
-                        "Um apartamento ideal para jovens famílias com um modo de vida cosmopolita e citadino."
-                    ],
-                    "img2": "projetos/cincoAvenida/montagem/montagem2.jpg",
-                    "img3": "projetos/cincoAvenida/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE AVEIRO",
-                    "image": "projetos/cincoAvenida/avenida.jpg",
-                    "text": "A Avenida Lourenço Peixinho está a ganhar uma nova vida. Para além de ter preservado a identidade que lhe é reconhecida, o investimento privado e o projeto de requalificação do espaço público que a Câmara se preparar para lançar, projetam-na para um novo renascer. A proximidade à Estação de Comboios, a cafés, lojas e a diversos serviços reúne as condições para uma vivência urbana única, onde é possível viver e sentir o coração da cidade.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "garden": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Garden",
-                    "text": "Building with Ponto Urbano stamp in the heart of the city of Ílhavo",
-                    "slider": "projetos/garden/slider/GardenDestaque-Banner.jpg",
-                    "alt": "Garden"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/garden/slider/GardenDestaque-Banner.jpg",
-                            "title": "GARDEN",
-                            "text": [
-                                "Building with Ponto Urbano stamp",
-                                "in the heart of the city of Ílhavo"
-                            ]
-                        },
-                        {
-                            "image": "projetos/garden/slider/GardenFachada-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/garden/slider/GardenHenriqueta-Banner.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/garden/slider/GardenDestaque-Strip.jpg",
-                        "projetos/garden/slider/GardenFachada-Strip.jpg",
-                        "projetos/garden/slider/GardenHenriqueta-Strip.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/garden/coverVert.jpg",
-                    "alt": "Gardem"
-                },
-                "images-old": {
-                    "fachada": "projetos/garden/coverVert.jpg",
-                    "fachadaAlt": "projetos/garden/cover_Garden02.jpg"
-                },
-                "info": {
-                    "title": "O empreendimento Garden localiza-se na cidade de Ílhavo, a apenas 10 minutos das praias da Barra e da Costa Nova e, das cidades de Aveiro e Vagos. Viver em Ílhavo e viver nestes apartamentos significa qualidade de vida, oferecendo a tranquilidade de um pequeno centro urbano.",
-                    "text": "A localização do edifício permite aproveitar as praias, adotar um estilo de vida saudável, praticar vários desportos ao ar livre e usufruir dos vários equipamentos culturais e de lazer numa cidade cujo lema é o mar por tradição.",
-                    "image1": "projetos/garden/slider/GardenFachada-Banner.jpg",
-                    "alt1": "Garden",
-                    "image2": "projetos/garden/slider/GardenHenriqueta-Banner.jpg",
-                    "alt2": "Garden",
-                    "features": {
-                        "image": "projetos/garden/slider/GardenDestaque-Banner.jpg",
-                        "alt": "Garden",
-                        "title": "Characteristics Block A",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "3 Floor + Recessed"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "4 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T2 - T3"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "100m² - 150m²"
-                            }
-                        ]
-                    },
-                    "features2": {
-                        "image": "projetos/garden/slider/GardenFachada-Banner.jpg",
-                        "alt": "Garden",
-                        "title": "Characteristics Block B",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "2 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "4 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T2"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "100m² - 150m²"
-                            }
-                        ]
-                    }
-                }, 
-                "introTexts-old": {
-                    "title": "GARDEN",
-                    "first": "GARDEN is located in the city of Ílhavo, just 10 minutes from the beaches of Barra and Costa Nova and the cities of Aveiro and Vagos. Living in Ílhavo means quality of life, offering the tranquility of a small urban centre.",
-                    "second": "The location allows you to enjoy the beaches, adopt a healthy lifestyle, practice various outdoor sports and enjoy the various cultural and leisure facilities in a city whose motto is the sea for tradition.",
-                    "symbols": [
-                        {
-                            "nome": "Block A",
-                            "pisos": "3 Floor + Recessed",
-                            "estacionamento": "Parking",
-                            "apartamentos": "4 Flats",
-                            "tipologia": "T2 - T3",
-                            "area": "100m² - 150m²"
-                        },
-                        {
-                            "nome": "Block B",
-                            "pisos": "2 Floors",
-                            "estacionamento": "Parking Space",
-                            "apartamentos": "4 Flats",
-                            "tipologia": "T2",
-                            "area": "100m² - 150m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Ílhavo",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Adriano Nordeste Pavilion"
-                        },
-                        {
-                            "place": "Henriqueta Garden"
-                        },
-                        {
-                            "place": "Ílhavo House of Culture"
-                        },
-                        {
-                            "place": "Town Hall of Ílhavo"
-                        },
-                        {
-                            "place": "Ílhavo Maritime Museum"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/garden/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "GARDEN",
-                    "btnLink": "https://www.google.com/maps/place/40%C2%B036'06.1%22N+8%C2%B040'05.8%22W/@40.6017629,-8.6682159,146m/data=!3m1!1e3!4m6!3m5!1s0x0:0x0!7e2!8m2!3d40.6016999!4d-8.6682828",
-                    "default": {
-                        "top": "-176%",
-                        "left": "-105%",
-                        "topM": "-100%",
-                        "leftM": "-136%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "GARDEN",
-                            "legenda": "Um dos blocos do edifício Garden encontra-se localizado em frente ao Jardim Henriqueta Maia, na Avenida 25 de Abril.",
-                            "imagem": "mapa/pontointeresse_JardimHenriquetaMaia.jpg",
-                            "top": "-176%",
-                            "left": "-105%",
-                            "topM": "-100%",
-                            "leftM": "-136%"
-                        },
-                        {
-                            "nome": "ADRIANO NORDESTE PAVILION",
-                            "legenda": "Cenas",
-                            "imagem": "mapa/pontointeresse_Pav-AdrianoNordeste.jpg",
-                            "top": "-252%",
-                            "left": "-53%",
-                            "topM": "-145%",
-                            "leftM": "-72%"
-                        },
-                        {
-                            "nome": "HENRIQUETA GARDEN",
-                            "legenda": "Um dos blocos do edifício Garden encontra-se localizado em frente ao Jardim Henriqueta Maia, na Avenida 25 de Abril.",
-                            "imagem": "mapa/pontointeresse_JardimHenriquetaMaia.jpg",
-                            "top": "-252%",
-                            "left": "-89%",
-                            "topM": "-147%",
-                            "leftM": "-115%"
-                        },
-                        {
-                            "nome": "ÍLHAVO HOUSE OF CULTURE",
-                            "legenda": "A Casa da Cultura de Ílhavo, inaugurada em 2008, é palco de muitos espetáculos, congressos e exposições e está a uma distância de apenas 3 minutos do Garden.",
-                            "imagem": "mapa/pontointeresse_CentroCultural.jpg",
-                            "top": "-228%",
-                            "left": "-130%",
-                            "topM": "-131%",
-                            "leftM": "-165%"
-                        },
-                        {
-                            "nome": "TOWN HALL OF ÍLHAVO",
-                            "legenda": "O Garden prima pela centralidade, a Câmara está a um passo de apenas 4 minutos a pé.",
-                            "imagem": "mapa/pontointeresse_CamaraMunicipal.jpg",
-                            "top": "-205%",
-                            "left": "-150%",
-                            "topM": "-119%",
-                            "leftM": "-201%"
-                        },
-                        {
-                            "nome": "ÍLHAVO MARITIME MUSEUM",
-                            "legenda": "Nasceu em 1937 e é um lugar de memória dos ilhavenses, pela forte ligação das gentes ao mar e à ria. Edifício de arquitetura moderna, que inclui um Aquário de Bacalhaus, tem como intuito promover a cultura e está a apenas 8 minutos a pé.",
-                            "imagem": "mapa/pontointeresse_MuseuMaritimo.jpg",
-                            "top": "-33%",
-                            "left": "-59%",
-                            "topM": "-6%",
-                            "leftM": "-80%"
-                        }
-                    ]
-                },
-                "texturas-old": [
-                    {
-                        "nome": "EXTERIOR",
-                        "imagem": "projetos/garden/GARDEN.png",
-                        "texto": [
-                            "O tom natural das fachadas, em contraste com a textura do alumínio anodizado à cor champanhe conferem nobreza e simplicidade ao projeto, criando uma ligação harmoniosa entre o desenho e a textura."
-                        ],
-                        "material1": {
-                            "nome": "Textura Alumínio Champagne",
-                            "imagem": "projetos/garden/texturas/exterior_aluminio_champagne.jpg"
-                        },
-                        "material2": {
-                            "nome": "Textura Etics Capotto",
-                            "imagem": "projetos/garden/texturas/textura_etics_capotto.jpg"
-                        }
-                    }
-                ],
-                "planta-olds": [
-                    {
-                        "nome": "GARDEN",
-                        "morada": "RUA",
-                        "tipologia": [
-                            {
-                                "nome": "T2",
-                                "piso": "projetos/garden/planta/PISO-T2.png",
-                                "nota": "RECUADO - 111M²",
-                                "pisoTop": "projetos/svg/projetos/garden/planta/t2.svg",
-                                "planta": "projetos/garden/planta/PLANTA-T2.png",
-                                "tipo": "projetos/svg/simbolos/t2.svg",
-                                "tipoGray": "projetos/svg/simbolos/t2gray.svg"
-                            },
-                            {
-                                "nome": "T3",
-                                "piso": "projetos/garden/planta/PISO-T3.png",
-                                "nota": "1º Piso - 141M²",
-                                "pisoTop": "projetos/svg/projetos/garden/planta/t3.svg",
-                                "planta": "projetos/garden/planta/PLANTA-T3.png",
-                                "tipo": "projetos/svg/simbolos/t3.svg",
-                                "tipoGray": "projetos/svg/simbolos/t3gray.svg"
-                            }
-                        ]
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO GARDEN",
-                    "img1": "projetos/garden/montagem/lifestyle_Cultura-03.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "Situado na freguesia de S. Salvador surge o empreendimento Garden, composto por dois blocos, um em frente ao Jardim Henriqueta Maia, na Avenida 25 de abril, e outro voltado para a Rua Dr. Frederico Cerveira, o que permite rápidas deslocações a pé por toda a cidade.",
-                        "O potencial do edifício aumenta, não só pelas características de construção e pelo seu desenho, como também pela localização central na principal artéria de Ílhavo – a Avenida 25 de Abril."
-                    ],
-                    "img2": "projetos/garden/montagem/lifestyle_Cultura-Thumb.jpg",
-                    "img3": "projetos/garden/montagem/lifestyle_Cultura-02.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE ÍLHAVO",
-                    "image": "projetos/garden/ilhavo.jpg",
-                    "text": "A proximidade do edifício ao Jardim Henriqueta Maia oferece uma localização que prima pela centralidade, sem perder a tranquilidade ideal para um ritmo de vida saudável. Embora seja uma cidade, a sintonia e o respeito pela natureza convidam-no a viver de uma forma plena. Os apaixonados pela prática desportiva podem alcançar metas no pavilhão Adriano Nordeste e nas piscinas municipais de Ílhavo. Uma cidade repleta de locais com história como o Museu Marítimo de Ílhavo e de espaços de lazer como a Casa da Cultura de Ílhavo. A proximidade do edifício à Biblioteca Municipal e à Câmara Municipal de Ílhavo reflete um modo de vida quotidiano tranquilo, capaz de satisfazer todas as necessidades do diárias.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "golden": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Puro Golden",
-                    "text": "The excellence of construction in the heart of Aveiro.",
-                    "slider": "projetos/golden/new/banner.jpg",
-                    "alt": "Puro Golden"
-                },
-                "menu-old": {
-                    "subtitle":"Building",
-                    "title": "Puro Golden",
-                    "text": "A excelência da construção no coração de Aveiro",
-                    "slider": "projetos/golden/new/banner.jpg",
-                    "alt": "Puro Golden"
-                },
-                "image": {
-                    "image": "projetos/golden/new/01.jpg",
-                    "alt": "Puro Golden"
-                },
-                "images-old": {
-                    "fachada": "projetos/puro/PuroFrenteCeu.jpg",
-                    "linhas": "projetos/puro/linhas.png",
-                    "assinatura": "projetos/svg/projetos/puro/assinatura.svg",
-                    "fachadaAlt": "projetos/puro/FachadaPuroTower.jpg"
-                },
-                "info": {
-                    "title": "The surrounding green areas embellish the tranquil landscape transmitted by the channel of the Ria de Aveiro.",
-                    "text": "The garden surroundings offer leisure places inviting to the practice of sport activities and to walk or cycle through the historical centre of the city. The urban and cosmopolitan lines of Puro Golden reflect the luminosity of the place, proving that to live in Puro buildings is to breathe the city.",
-                    "image1": "projetos/golden/new/02.jpg",
-                    "alt1": "Puro Golden",
-                    "image2": "projetos/golden/new/03.jpg",
-                    "alt2": "Puro Golden",
-                    "features": {
-                        "image": "projetos/golden/new/features.jpg",
-                        "alt": "Puro Golden",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "6 Floor + Recessed"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "23 Apartments + 2 Stores"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T1 - T4"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "63m² - 210m²"
-                            }
-                        ]
-                    }
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Train Station"
-                        },
-                        {
-                            "place": "Shopping"
-                        },
-                        {
-                            "place": "Schools"
-                        },
-                        {
-                            "place": "Markets"
-                        }
-                    ]
-                },
-                "introTexts-old": {
-                    "title": "PURO GOLDEN",
-                    "first": "The Puro Golden building is located in one of the noblest areas of Aveiro - the Cais da Fonte Nova. The surrounding green areas embellish the tranquil landscape transmitted by the channel of the Ria de Aveiro.",
-                    "second": "The garden surroundings offer leisure places inviting to the practice of sport activities and to walk or cycle through the historical centre of the city. The urban and cosmopolitan lines of Puro Golden reflect the luminosity of the place, proving that to live in Puro buildings is to breathe the city.",
-                    "quote": [
-                        "“De grande impacto visual,",
-                        "a amplitude e proeminência das varandas",
-                        "permite uma vista abrangente sobre a cidade.”"
-                    ],
-                    "author": "Arquiteto Mário Alves",
-                    "symbols": [
-                        {
-                            "nome": "PURO GOLDEN",
-                            "pisos": "6 Floors + Recessed",
-                            "estacionamento": "Parking",
-                            "apartamentos": "23 Apartments + 2 Stores",
-                            "tipologia": "T1 - T4",
-                            "area": "63m² - 210m²",
-                            "comercial": "Comercial Spaces",
-                            "areaComercial": "150m² - 196m²"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/golden/Mapa.jpg",
-                    "title": "LOCALIZAÇÃO",
-                    "btn": "PURO",
-                    "btnLink": "https://www.google.pt/maps/place/40%C2%B038'26.2%22N+8%C2%B038'32.9%22W/@40.6406012,-8.6436654,848m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d40.6405986!4d-8.6424717",
-                    "default": {
-                        "top": "-127%",
-                        "left": "-114%",
-                        "topM": "-61%",
-                        "leftM": "-146%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "PURO GOLDEN",
-                            "legenda": "",
-                            "imagem": "mapa/pontointeresse_Forum.jpg",
-                            "top": "-127%",
-                            "left": "-114%",
-                            "topM": "-61%",
-                            "leftM": "-146%"
-                        },
-                        {
-                            "nome": "AVEIRO FORUM",
-                            "legenda": "Centro comercial a céu aberto com uma arquitetura única, ideal para quem prefere andar às compras num espaço arejado. Localizado no centro da cidade e aberto durante toda a semana, o Fórum de Aveiro está a cerca de 20 minutos do Puro Homes e Puro Tower.",
-                            "imagem": "mapa/pontointeresse_Forum.jpg",
-                            "top": "-106%",
-                            "left": "-23%",
-                            "topM": "-50%",
-                            "leftM": "-37%"
-                        },
-                        {
-                            "nome": "TRAIN STATION",
-                            "legenda": "O percurso até à estação dos comboios pode ser feito a pé, numa distância de apenas 10 minutos. O nascimento do empreendimento, junto à estação de Aveiro, traz uma nova centralidade à cidade.",
-                            "imagem": "mapa/pontointeresse_Estacao.jpg",
-                            "top": "-37%",
-                            "left": "-132%",
-                            "topM": "-7%",
-                            "leftM": "-167%"
-                        },
-                        {
-                            "nome": "MANUEL FIRMINO MARKET",
-                            "legenda": "A 10 minutos a pé do Puro Homes e Puro Tower, neste mercado retalhista, localizado no coração da cidade, é possível comprar fruta, produtos hortícolas, carnes, peixes ou outros géneros alimentícios.",
-                            "imagem": "mapa/pontointeresse_Mercado.jpg",
-                            "top": "-55%",
-                            "left": "-55%",
-                            "topM": "-20%",
-                            "leftM": "-75%"
-                        },
-                        {
-                            "nome": "CONGRESS CENTRE",
-                            "legenda": "O empreendimento está localizado junto a um edifício emblemático da arquitetura industrial aveirense, a Fábrica Jerónimo Pereira de Campos, atual Centro Cultural e de Congressos de Aveiro. Aberto desde 1995, o edifício recebe anualmente congressos, debates, exposições e espetáculos. O espaço é ainda a sede dos serviços da Câmara Municipal de Aveiro.",
-                            "imagem": "mapa/pontointeresse_Congressos.jpg",
-                            "top": "-209%",
-                            "left": "-118%",
-                            "topM": "-118%",
-                            "leftM": "-150%"
-                        },
-                        {
-                            "nome": "MELIÃ HOTEL",
-                            "legenda": "Localizado junto ao canal da Ria de Aveiro, em frente ao Centro Cultural e de Congressos, o hotel foi inaugurado em 2005 e é o reflexo da arquitetura contemporânea.",
-                            "imagem": "mapa/pontointeresse_Hotel.jpg",
-                            "top": "-206%",
-                            "left": "-88%",
-                            "topM": "-117%",
-                            "leftM": "-114%"
-                        }
-                    ]
-                },
-                "texturas-old": [
-                    {
-                        "nome": "EXTERIOR",
-                        "imagem": "projetos/puro/fachadaTextura.png",
-                        "texto": [
-                            "De grande impacto visual",
-                            "a amplitude e proeminência das varandas",
-                            "permite uma vista abrangente",
-                            "sobre a cidade."
-                        ],
-                        "material1": {
-                            "nome": "Textura Aço Corten",
-                            "imagem": "projetos/puro/texturas/acoCorten.jpeg"
-                        },
-                        "material2": {
-                            "nome": "Textura Betão Negro",
-                            "imagem": "projetos/puro/texturas/betaoPreto.jpeg"
-                        }
-                    }
-                ],
-                "slider-old": [
-                    {
-                        "nome": "WC",
-                        "imagem": "projetos/puro/interiores/wc.jpg"
-                    },
-                    {
-                        "nome": "SALA DE ESTAR",
-                        "imagem": "projetos/puro/interiores/sala_estar.jpg"
-                    },
-                    {
-                        "nome": "SALA DE JANTAR",
-                        "imagem": "projetos/puro/interiores/sala_jantar.jpg"
-                    },
-                    {
-                        "nome": "COZINHA",
-                        "imagem": "projetos/puro/interiores/cozinha.jpg"
-                    },
-                    {
-                        "nome": "QUARTO",
-                        "imagem": "projetos/puro/interiores/quarto.jpg"
-                    }
-                ],
-                "plantas-old": [
-                    {
-                        "nome": "PURO HOMES",
-                        "morada": "RUA CARLOS SILVA M. GUIMARÃES",
-                        "tipologia": [
-                            {
-                                "nome": "T1",
-                                "piso": "projetos/puro/planta/homePiso1.png",
-                                "nota": "RÉS DO CHÃO - 69M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso1.svg",
-                                "planta": "projetos/puro/planta/homePlanta1.png"
-                            },
-                            {
-                                "nome": "T2",
-                                "piso": "projetos/puro/planta/homePiso2.png",
-                                "nota": "RÉS DO CHÃO - 104.5M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso2.svg",
-                                "planta": "projetos/puro/planta/homePlanta2.png"
-                            },
-                            {
-                                "nome": "T3",
-                                "piso": "projetos/puro/planta/homePiso3.png",
-                                "nota": "4º ANDAR - 131M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso3.svg",
-                                "planta": "projetos/puro/planta/homePlanta3.png"
-                            },
-                            {
-                                "nome": "T4",
-                                "piso": "projetos/puro/planta/homePiso4.png",
-                                "nota": "4º PISO - 160M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso4.svg",
-                                "planta": "projetos/puro/planta/homePlanta4.png"
-                            }
-                        ]
-                    },
-                    {
-                        "nome": "PURO TOWER",
-                        "morada": "RUA CARLOS SILVA M. GUIMARÃES",
-                        "tipologia": [
-                            {
-                                "nome": "T1",
-                                "piso": "projetos/puro/planta/towerPiso1.png",
-                                "nota": "6º ANDAR - 52M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso1.svg",
-                                "planta": "projetos/puro/planta/towerPlanta1.png"
-                            },
-                            {
-                                "nome": "T2",
-                                "piso": "projetos/puro/planta/towerPiso2.png",
-                                "nota": "6º ANDAR - 93.5M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso2.svg",
-                                "planta": "projetos/puro/planta/towerPlanta2.png"
-                            },
-                            {
-                                "nome": "T3",
-                                "piso": "projetos/puro/planta/towerPiso3.png",
-                                "nota": "6º ANDAR - 135M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso3.svg",
-                                "planta": "projetos/puro/planta/towerPlanta3.png"
-                            },
-                            {
-                                "nome": "T4",
-                                "piso": "projetos/puro/planta/towerPiso4.png",
-                                "nota": "5º ANDAR - 166M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso4.svg",
-                                "planta": "projetos/puro/planta/towerPlanta4.png"
-                            }
-                        ]
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO PURO HOMES E PURO TOWER",
-                    "img1": "projetos/puro/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "As áreas privadas são sublimadas pela tranquilidade dos tons claros e o conforto das madeiras.",
-                        "Um local que privilegia o contraste da paisagem exterior com a sofisticação e requinte do interior, proporcionando dinâmicas e fontes de inspiração que se revelam um sucesso à mesa."
-                    ],
-                    "img2": "projetos/puro/montagem/montagem2.jpg",
-                    "img3": "projetos/puro/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE AVEIRO",
-                    "image": "projetos/puro/cais.png",
-                    "text": "A zona do Cais da Fonte Nova, para além de servir de palco aos principais espetáculos musicais da cidade, tem vindo a ganhar, ao longo dos anos, uma nova centralidade. Este é um local onde se tem verificado uma forte expansão habitacional de qualidade. As zonas verdes circundantes embelezam a paisagem tranquila transmitida pelo canal navegável da Ria de Aveiro. A zona do jardim oferece locais de lazer para atividades desportivas como tabelas de basquete de acesso livre, zona de patinagem e um campo de futebol de relva artificial. Os dias soalheiros e o clima agradável convidam a passear a pé ou de bicicleta até ao centro histórico da cidade. E a proximidade a cafés, supermercados, à Estação de Comboios da CP, ao Mercado Manuel Firmino, ao Centro Cultural e de Congressos e ao Fórum de Aveiro revelam que viver no Puro é respirar a cidade.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "greenvilla": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Green Villas",
-                    "text": "Villas in a quiet area, 10 minutes from Aveiro",
-                    "slider": "projetos/green-villas/slider/full/01.jpg",
-                    "alt": "Green Villas"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/green-villas/slider/full/01.jpg",
-                            "title": "GREEN VILLAS",
-                            "text": [
-                                "Villas in a quiet area,",
-                                "10 minutes from Aveiro"
-                            ]
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/02.jpg"
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/03.jpg"
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/04.jpg"
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/05.jpg"
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/06.jpg"
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/07.jpg"
-                        },
-                        {
-                            "image": "projetos/green-villas/slider/full/08.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/green-villas/slider/thumb/01.jpg",
-                        "projetos/green-villas/slider/thumb/02.jpg",
-                        "projetos/green-villas/slider/thumb/03.jpg",
-                        "projetos/green-villas/slider/thumb/04.jpg",
-                        "projetos/green-villas/slider/thumb/05.jpg",
-                        "projetos/green-villas/slider/thumb/06.jpg",
-                        "projetos/green-villas/slider/thumb/07.jpg",
-                        "projetos/green-villas/slider/thumb/08.jpg"
-                    ]
-                },
-                "info": {
-                    "title": "The concept transcends aesthetics and creates spaces adapted to the surroundings and conceived to make its residents calm and happy. With straight lines and wide spaces, gives the harmony and serenity so necessary for those who live the fast pace of the city every day.",
-                    "text": "These four bedroom houses are located in São Bernardo, next to the S. Bernardo Primary School and S. Bernardo Sports Centre (Pavilion), in a quiet residential area. In just 10 minuntes by car you'll be in the centre of Aveiro city.",
-                    "image1": "projetos/green-villas/slider/full/02.jpg",
-                    "alt1": "Green Villas",
-                    "image2": "projetos/green-villas/slider/full/03.jpg",
-                    "alt2": "Green Villas",
-                    "features": {
-                        "image": "projetos/green-villas/slider/full/04.jpg",
-                        "alt": "Green Villas",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Plots / 4 Villas"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/garagem.svg",
-                                "feature": "Garage"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/churrasqueira.svg",
-                                "feature": "Barbecue"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T4"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "GREEN VILLAS",
-                    "first": "The concept transcends aesthetics and creates spaces adapted to the surroundings and conceived to make its residents calm and happy. With straight lines and wide spaces, gives the harmony and serenity so necessary for those who live the fast pace of the city every day.",
-                    "second": "These four bedroom houses are located in São Bernardo, next to the S. Bernardo Primary School and S. Bernardo Sports Centre (Pavilion), in a quiet residential area. In just 10 minuntes by car you'll be in the centre of Aveiro city.",
-                    "symbols": [
-                        {
-                            "nome": "GREEN VILLAS",
-                            "pisos": "4 Plots / 4 Villas",
-                            "tipologia": "T4",
-                            "garagem": "Garage",
-                            "extra": "Barbecue"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Pavilion and Tennis Courts"
-                        },
-                        {
-                            "place": "EB1 S. Bernardo"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/green-villas/map/map.jpg",
-                    "title": "LOCATION",
-                    "btn": "GREEN VILLAS",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-137%",
-                        "left": "-67%",
-                        "topM": "-72%",
-                        "leftM": "-90%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "GREEN VILLAS",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-76%",
-                            "left": "-36%",
-                            "topM": "-35%",
-                            "leftM": "-50%"
-                        },
-                        {
-                            "nome": "PAVILION AND TENNIS COURTS",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-207%",
-                            "left": "-34%",
-                            "topM": "-120%",
-                            "leftM": "-48%"
-                        },
-                        {
-                            "nome": "EB1 S. BERNARDO",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-94%",
-                            "left": "-150%",
-                            "topM": "-48%",
-                            "leftM": "-189%"
-                        }
-                    ]
-                }
-            },
-            "lux": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Lux",
-                    "text": "The first line of sea on Barra Beach - Ílhavo",
-                    "slider": "projetos/lux/slider/1.jpg",
-                    "alt": "Lux"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/lux/slider/1.jpg",
-                            "title": "LUX",
-                            "text": [
-                                "The first line of sea",
-                                "on Barra Beach - Ílhavo"
-                            ]
-                        },
-                        {
-                            "image": "projetos/lux/slider/2.jpg"
-                        },
-                        {
-                            "image": "projetos/lux/slider/3.jpg"
-                        },
-                        {
-                            "image": "projetos/lux/slider/4.jpg"
-                        },
-                        {
-                            "image": "projetos/lux/slider/5.jpg"
-                        },
-                        {
-                            "image": "projetos/lux/slider/6.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/lux/slider/1s.jpg",
-                        "projetos/lux/slider/2s.jpg",
-                        "projetos/lux/slider/3s.jpg",
-                        "projetos/lux/slider/4s.jpg",
-                        "projetos/lux/slider/5s.jpg",
-                        "projetos/lux/slider/6s.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/lux/cover_Lux.jpg",
-                    "alt": "Lux"
-                },
-                "image2": {
-                    "image": "projetos/lux/desenho-Lux.jpg",
-                    "alt": "Lux"
-                },
-                "images-old": {
-                    "fachada": "projetos/lux/cover_Lux.jpg",
-                    "linhas": "projetos/lux/desenho-Lux.jpg",
-                    "assinatura": "projetos/svg/puro/assinatura.svg",
-                    "fachadaAlt": "projetos/lux/cover_Lux03.jpg"
-                },
-                "info": {
-                    "title": "Located in a privileged area of Praia da Barra and with a panoramic view that stretches to the horizon, Lux is based on the creation of a timeless building integrated into its surroundings.",
-                    "text": "The concept of the project is to personalize the horizontal line between the sea and the sky, represented by the blades created around the main volume of the building.",
-                    "image1": "projetos/lux/slider/2.jpg",
-                    "alt1": "Lux",
-                    "image2": "projetos/lux/slider/3.jpg",
-                    "alt2": "Lux",
-                    "features": {
-                        "image": "projetos/lux/slider/4.jpg",
-                        "alt": "Cinco Avenida",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "16 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T1 - T4"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "50m² - 232m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "LUX",
-                    "first": "Located in a privileged area of Praia da Barra and with a panoramic view that stretches to the horizon, Lux is based on the creation of a timeless building integrated into its surroundings.",
-                    "second": "The concept of the project is to personalize the horizontal line between the sea and the sky, represented by the blades created around the main volume of the building.",
-                    "quote": [
-                        "“O betão ocre e o verde das lâminas do zinco",
-                        "incorporam as tonalidades da areia da vegetação,",
-                        "moldando assim o edifício ao ambiente.”"
-                    ],
-                    "author": "Arquiteto Mário Alves",
-                    "symbols": [
-                        {
-                            "nome": "LUX",
-                            "pisos": "4 Floors",
-                            "estacionamento": "Parking",
-                            "apartamentos": "16 Flats",
-                            "tipologia": "T1 - T4",
-                            "area": "50m² - 232m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Ílhavo",
-                    "title": "Localização<br/> Priveligiada",
-                    "places": [
-                        {
-                            "place": "Farol da Barra"
-                        },
-                        {
-                            "place": "Beach"
-                        },
-                        {
-                            "place": "Surf"
-                        },
-                        {
-                            "place": "Sail"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/lux/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "LUX",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-137%",
-                        "left": "-67%",
-                        "topM": "-72%",
-                        "leftM": "-90%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "LUX",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-137%",
-                            "left": "-67%",
-                            "topM": "-72%",
-                            "leftM": "-90%"
-                        },
-                        {
-                            "nome": "FAROL DA BARRA",
-                            "legenda": "O edifício está a uma distância de apenas 9 minutos a pé da Estação dos Comboios.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_EstacaoPonto.jpg",
-                            "top": "-39%",
-                            "left": "-62%",
-                            "topM": "-11%",
-                            "leftM": "-84%"
-                        },
-                        {
-                            "nome": "BEACH",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-234%",
-                            "left": "-31%",
-                            "topM": "-131%",
-                            "leftM": "-47%"
-                        },
-                        {
-                            "nome": "SURF",
-                            "legenda": "aaa",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-111%",
-                            "left": "-5%",
-                            "topM": "-51%",
-                            "leftM": "-16%"
-                        },
-                        {
-                            "nome": "SAIL",
-                            "legenda": "bbb",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-40%",
-                            "left": "-18%",
-                            "topM": "-11%",
-                            "leftM": "-32%"
-                        }
-                    ]
-                },
-                "slider-old": [
-                    {
-                        "nome": "SALA",
-                        "imagem": "projetos/lux/interiores/slider_Sala.jpg"
-                    },
-                    {
-                        "nome": "VARANDA E SALA",
-                        "imagem": "projetos/lux/interiores/slider_Varanda+Sala.jpg"
-                    },
-                    {
-                        "nome": "ENTRADA",
-                        "imagem": "projetos/lux/interiores/slider_Entrada.jpg"
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO LUX",
-                    "img1": "projetos/lux/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "O edifício, integrado na paisagem é constituído por apartamentos de tipologias T1 a T4, com áreas entre 50m2 a 232 m2.",
-                        "O Lux tem dois pisos subterrâneos com garagens e arrumos e quatro pisos de apartamentos."
-                    ],
-                    "img2": "projetos/lux/montagem/montagem2.jpg",
-                    "img3": "projetos/lux/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE A BARRA",
-                    "image": "projetos/lux/barra.jpg",
-                    "text": "Galardoada com a Bandeira Azul desde 1989 e com a Bandeira “Praia Acessível, Praia para Todos” desde 2002, a Praia da Barra prevalece como uma das mais marcantes praias portuguesas. Enquadrada paisagisticamente pelo Farol da Barra, reflete o seu encanto no areal dourado, na qualidade das suas águas e na animação estival. As tardes de calor intensas nos meses de verão convidam-no a ir a banhos.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "neon": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Neon",
-                    "text": "Building with Ponto urbano construction in the city of Aveiro.",
-                    "slider": "projetos/neon/slider/1.jpg",
-                    "alt": "Neon"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/neon/slider/1.jpg",
-                            "title": "NEON",
-                            "text": "Building with Ponto urbano construction in the city of Aveiro."
-                        },
-                        {
-                            "image": "projetos/neon/slider/2.jpg"
-                        },
-                        {
-                            "image": "projetos/neon/slider/3.jpg"
-                        },
-                        {
-                            "image": "projetos/neon/slider/4.jpg"
-                        },
-                        {
-                            "image": "projetos/neon/slider/5.jpg"
-                        },
-                        {
-                            "image": "projetos/neon/slider/6.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/neon/slider/1s.jpg",
-                        "projetos/neon/slider/2s.jpg",
-                        "projetos/neon/slider/3s.jpg",
-                        "projetos/neon/slider/4s.jpg",
-                        "projetos/neon/slider/5s.jpg",
-                        "projetos/neon/slider/6s.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/neon/slider/2.jpg",
-                    "alt": "Neon"
-                },
-                "image2": {
-                    "image": "projetos/neon/slider/3.jpg",
-                    "alt": "Neon"
-                },
-                "images-old": {
-                    "fachada": "projetos/lux/cover_Lux.jpg",
-                    "linhas": "projetos/lux/desenho-Lux.jpg",
-                    "assinatura": "projetos/svg/projetos/puro/assinatura.svg",
-                    "fachadaAlt": "projetos/lux/cover_Lux03.jpg"
-                },
-                "info": {
-                    "title": "Localizado numa zona privilegiada da praia da Barra e com uma vista panorâmica que se alonga até ao horizonte, o Lux assenta na criação de um edifício intemporal integrado na envolvente.",
-                    "text": "O conceito do projeto é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
-                    "image1": "projetos/neon/slider/4.jpg",
-                    "alt1": "Neon",
-                    "image2": "projetos/neon/slider/5.jpg",
-                    "alt2": "Neon",
-                    "features": {
-                        "image": "projetos/neon/slider/6.jpg",
-                        "alt": "Cinco Avenida",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "16 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T1 - T4"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "50m² - 232m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "LUX",
-                    "first": "Localizado numa zona privilegiada da praia da Barra e com uma vista panorâmica que se alonga até ao horizonte, o Lux assenta na criação de um edifício intemporal integrado na envolvente.",
-                    "second": "O conceito do projeto é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
-                    "quote": [
-                        "“O betão ocre e o verde das lâminas do zinco",
-                        "incorporam as tonalidades da areia da vegetação,",
-                        "moldando assim o edifício ao ambiente.”"
-                    ],
-                    "author": "Arquiteto Mário Alves",
-                    "symbols": [
-                        {
-                            "nome": "LUX",
-                            "pisos": "4 Pisos",
-                            "estacionamento": "Estacionamento",
-                            "apartamentos": "16 Apartamentos",
-                            "tipologia": "T1 - T4",
-                            "area": "50m² - 232m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Sporting Clube de Aveiro"
-                        },
-                        {
-                            "place": "E.B. Vera Cruz"
-                        },
-                        {
-                            "place": "Carcavelos Bridge"
-                        },
-                        {
-                            "place": "Praça do Peixe Market"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/neon/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "NEON",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-106%",
-                        "left": "-145%",
-                        "topM": "-51%",
-                        "leftM": "-184%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "NEON",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-106%",
-                            "left": "-145%",
-                            "topM": "-51%",
-                            "leftM": "-184%"
-                        },
-                        {
-                            "nome": "SPORTING CLUBE DE AVEIRO",
-                            "legenda": "O edifício está a uma distância de apenas 9 minutos a pé da Estação dos Comboios.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_EstacaoPonto.jpg",
-                            "top": "-48%",
-                            "left": "-131%",
-                            "topM": "-21%",
-                            "leftM": "-165%"
-                        },
-                        {
-                            "nome": "E.B. VERA CRUZ",
-                            "legenda": "A 5 minutos da Biblioteca Municipal José Marmelo Silva.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Biblioteca.jpg",
-                            "top": "-68%",
-                            "left": "-96%",
-                            "topM": "-28%",
-                            "leftM": "-125%"
-                        },
-                        {
-                            "nome": "CARCAVELOS BRIDGE",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-37%",
-                            "left": "-32%",
-                            "topM": "-8%",
-                            "leftM": "-48%"
-                        },
-                        {
-                            "nome": "PRAÇA DO PEIXE MARKET",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-266%",
-                            "left": "-0%",
-                            "topM": "-159%",
-                            "leftM": "-7%"
-                        }
-                    ]
-                },
-                "slider-old": [
-                    {
-                        "nome": "SALA",
-                        "imagem": "projetos/lux/interiores/slider_Sala.jpg"
-                    },
-                    {
-                        "nome": "VARANDA E SALA",
-                        "imagem": "projetos/lux/interiores/slider_Varanda+Sala.jpg"
-                    },
-                    {
-                        "nome": "ENTRADA",
-                        "imagem": "projetos/lux/interiores/slider_Entrada.jpg"
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO LUX",
-                    "img1": "projetos/lux/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "O edifício, integrado na paisagem é constituído por apartamentos de tipologias T1 a T4, com áreas entre 50m2 a 232 m2.",
-                        "O Lux tem dois pisos subterrâneos com garagens e arrumos e quatro pisos de apartamentos."
-                    ],
-                    "img2": "projetos/lux/montagem/montagem2.jpg",
-                    "img3": "projetos/lux/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE A BARRA",
-                    "image": "projetos/lux/barra.jpg",
-                    "text": "Galardoada com a Bandeira Azul desde 1989 e com a Bandeira “Praia Acessível, Praia para Todos” desde 2002, a Praia da Barra prevalece como uma das mais marcantes praias portuguesas. Enquadrada paisagisticamente pelo Farol da Barra, reflete o seu encanto no areal dourado, na qualidade das suas águas e na animação estival. As tardes de calor intensas nos meses de verão convidam-no a ir a banhos.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "point": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Point",
-                    "text": "Building with construction Urban Point in Paranhos, city of Oporto.",
-                    "slider": "projetos/point/slider/01.jpg",
-                    "alt": "Point"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/point/slider/01.jpg",
-                            "title": "POINT",
-                            "text": "Building with construction Urban Point in Paranhos, city of Oporto."
-                        },
-                        {
-                            "image": "projetos/point/slider/02.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/03.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/04.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/05.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/06.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/07.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/08.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/09.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/10.jpg"
-                        },
-                        {
-                            "image": "projetos/point/slider/11.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/point/slider/01s.jpg",
-                        "projetos/point/slider/02s.jpg",
-                        "projetos/point/slider/03s.jpg",
-                        "projetos/point/slider/04s.jpg",
-                        "projetos/point/slider/05s.jpg",
-                        "projetos/point/slider/06s.jpg",
-                        "projetos/point/slider/07s.jpg",
-                        "projetos/point/slider/08s.jpg",
-                        "projetos/point/slider/09s.jpg",
-                        "projetos/point/slider/10s.jpg",
-                        "projetos/point/slider/11s.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/point/slider/05.jpg",
-                    "alt": "Point"
-                },
-                "image2": {
-                    "image": "projetos/point/slider/06.jpg",
-                    "alt": "Point"
-                },
-                "images-old": {
-                    "fachada": "projetos/lux/cover_Lux.jpg",
-                    "linhas": "projetos/lux/desenho-Lux.jpg",
-                    "assinatura": "projetos/svg/projetos/puro/assinatura.svg",
-                    "fachadaAlt": "projetos/lux/cover_Lux03.jpg"
-                },
-                "info": {
-                    "title": "Modern and attractive, POINT offers comfort and design in the centre of Porto, close to university poles, hospitals and public transport stations.",
-                    "text": "Sophistication and modernity are allied, providing the home with the ideal day-to-day comfort.",
-                    "image1": "projetos/point/slider/02.jpg",
-                    "alt1": "Point",
-                    "image2": "projetos/point/slider/03.jpg",
-                    "alt2": "Point",
-                    "features": {
-                        "image": "projetos/point/slider/04.jpg",
-                        "alt": "Point",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "5 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "43 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T0 - T2"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "35m² - 73m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "POINT",
-                    "first": "Modern and attractive, POINT offers comfort and design in the centre of Porto, close to university poles, hospitals and public transport stations.",
-                    "second": "Sophistication and modernity are allied, providing the home with the ideal day-to-day comfort.",
-                    "symbols": [
-                        {
-                            "nome": "POINT",
-                            "pisos": "5 Floors",
-                            "estacionamento": "Parking",
-                            "apartamentos": "43 Flats",
-                            "tipologia": "T0 - T2",
-                            "area": "35m² - 73m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Porto",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Campus U. Católica"
-                        },
-                        {
-                            "place": "Faculty PCEUP"
-                        },
-                        {
-                            "place": "University Pole Metro Station"
-                        },
-                        {
-                            "place": "VCI Entrance"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/point/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "POINT",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-104%",
-                        "left": "-36%",
-                        "topM": "-49%",
-                        "leftM": "-53%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "POINT",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-104%",
-                            "left": "-36%",
-                            "topM": "-49%",
-                            "leftM": "-53%"
-                        },
-                        {
-                            "nome": "CAMPUS U. CATÓLICA",
-                            "legenda": "O edifício está a uma distância de apenas 9 minutos a pé da Estação dos Comboios.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_EstacaoPonto.jpg",
-                            "top": "-31%",
-                            "left": "-93%",
-                            "topM": "-4%",
-                            "leftM": "-120%"
-                        },
-                        {
-                            "nome": "FACULTY PCEUP",
-                            "legenda": "A 5 minutos da Biblioteca Municipal José Marmelo Silva.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Biblioteca.jpg",
-                            "top": "-99%",
-                            "left": "-135%",
-                            "topM": "-46%",
-                            "leftM": "-171%"
-                        },
-                        {
-                            "nome": "UNIVERSITY POLE METRO STATION",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-235%",
-                            "left": "-150%",
-                            "topM": "-134%",
-                            "leftM": "-200%"
-                        },
-                        {
-                            "nome": "VCI ENTRANCE",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-254%",
-                            "left": "0%",
-                            "topM": "-149%",
-                            "leftM": "-9%"
-                        }
-                    ]
-                },
-                "slider-old": [
-                    {
-                        "nome": "SALA",
-                        "imagem": "projetos/lux/interiores/slider_Sala.jpg"
-                    },
-                    {
-                        "nome": "VARANDA E SALA",
-                        "imagem": "projetos/lux/interiores/slider_Varanda+Sala.jpg"
-                    },
-                    {
-                        "nome": "ENTRADA",
-                        "imagem": "projetos/lux/interiores/slider_Entrada.jpg"
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO LUX",
-                    "img1": "projetos/lux/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "O edifício, integrado na paisagem é constituído por apartamentos de tipologias T1 a T4, com áreas entre 50m2 a 232 m2.",
-                        "O Lux tem dois pisos subterrâneos com garagens e arrumos e quatro pisos de apartamentos."
-                    ],
-                    "img2": "projetos/lux/montagem/montagem2.jpg",
-                    "img3": "projetos/lux/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE A BARRA",
-                    "image": "projetos/lux/barra.jpg",
-                    "text": "Galardoada com a Bandeira Azul desde 1989 e com a Bandeira “Praia Acessível, Praia para Todos” desde 2002, a Praia da Barra prevalece como uma das mais marcantes praias portuguesas. Enquadrada paisagisticamente pelo Farol da Barra, reflete o seu encanto no areal dourado, na qualidade das suas águas e na animação estival. As tardes de calor intensas nos meses de verão convidam-no a ir a banhos.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "ponto": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "24PONTO33",
-                    "text": "Multi-family building in the city centre of Espinho.",
-                    "slider": "projetos/ponto/slider/1.jpg",
-                    "alt": "24PONTO33"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/ponto/slider/1.jpg",
-                            "title": "24PONTO33",
-                            "text": [
-                                "Multi-family building",
-                                "in the city centre of Espinho"
-                            ]
-                        },
-                        {
-                            "image": "projetos/ponto/slider/2.jpg"
-                        },
-                        {
-                            "image": "projetos/ponto/slider/3.jpg"
-                        },
-                        {
-                            "image": "projetos/ponto/slider/4.jpg"
-                        },
-                        {
-                            "image": "projetos/ponto/slider/5.jpg"
-                        },
-                        {
-                            "image": "projetos/ponto/slider/6.jpg"
-                        },
-                        {
-                            "image": "projetos/ponto/slider/9.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/ponto/slider/1s.jpg",
-                        "projetos/ponto/slider/2s.jpg",
-                        "projetos/ponto/slider/3s.jpg",
-                        "projetos/ponto/slider/4s.jpg",
-                        "projetos/ponto/slider/5s.jpg",
-                        "projetos/ponto/slider/6s.jpg",
-                        "projetos/ponto/slider/9s.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/ponto/cover_24.jpg",
-                    "alt": "24PONTO33"
-                },
-                "images-old": {
-                    "fachada": "projetos/ponto/cover_24.jpg",
-                    "fachadaAlt": "projetos/ponto/cover_24.jpg"
-                },
-                "info": {
-                    "title": "The 24Ponto33 venture marks the entrance of Ponto Urbano into the city of Espinho. Just 15 minutes from Porto, the building offers quality of life and modernity.",
-                    "text": "Living in Espinho means abandoning the frenetic pace of large urban centres, taking advantage of the extensive stretch of beaches, adopting a healthy lifestyle, practising various outdoor sports and enjoying the various cultural and leisure facilities of the city.",
-                    "image1": "projetos/ponto/slider/2.jpg",
-                    "alt1": "24PONTO33",
-                    "image2": "projetos/ponto/slider/3.jpg",
-                    "alt2": "24PONTO33",
-                    "features": {
-                        "image": "projetos/ponto/slider/4.jpg",
-                        "alt": "24PONTO33",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "14 Flats"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T2 - T4"
-                            },                        
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "95m² - 215m²"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/varandas.svg",
-                                "feature": "Balconies"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "24PONTO33",
-                    "first": "The 24Ponto33 venture marks the entrance of Ponto Urbano into the city of Espinho. Just 15 minutes from Porto, the building offers quality of life and modernity.",
-                    "second": "Living in Espinho means abandoning the frenetic pace of large urban centres, taking advantage of the extensive stretch of beaches, adopting a healthy lifestyle, practising various outdoor sports and enjoying the various cultural and leisure facilities of the city.",
-                    "symbols": [
-                        {
-                            "nome": "24PONTO33",
-                            "pisos": "4 Floors",
-                            "estacionamento": "Parking",
-                            "apartamentos": "14 Apartments",
-                            "tipologia": "T2 - T4",
-                            "area": "95m² - 215m²",
-                            "varandas": "Balconies"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Espinho",
-                    "title": "Localização<br/> Priveligiada",
-                    "places": [
-                        {
-                            "place": "Multimedia Centre"
-                        },
-                        {
-                            "place": "Library"
-                        },
-                        {
-                            "place": "Beach"
-                        },
-                        {
-                            "place": "Train Station"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/ponto/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "24PONTO33",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-221%",
-                        "left": "-106%",
-                        "topM": "-129%",
-                        "leftM": "-137%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "24PONTO33",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-221%",
-                            "left": "-106%",
-                            "topM": "-129%",
-                            "leftM": "-137%"
-                        },
-                        {
-                            "nome": "MULTIMEDIA CENTRE",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-125%",
-                            "left": "-95%",
-                            "topM": "-65%",
-                            "leftM": "-122%"
-                        },
-                        {
-                            "nome": "LIBRARY",
-                            "legenda": "A 5 minutos da Biblioteca Municipal José Marmelo Silva.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Biblioteca.jpg",
-                            "top": "-45%",
-                            "left": "-98%",
-                            "topM": "-14%",
-                            "leftM": "-128%"
-                        },
-                        {
-                            "nome": "BEACH",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-91%",
-                            "left": "-10%",
-                            "topM": "-40%",
-                            "leftM": "-23%"
-                        },
-                        {
-                            "nome": "TRAIN STATION",
-                            "legenda": "O edifício está a uma distância de apenas 9 minutos a pé da Estação dos Comboios.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_EstacaoPonto.jpg",
-                            "top": "-94%",
-                            "left": "-48%",
-                            "topM": "-43%",
-                            "leftM": "-66%"
-                        }
-                    ]
-                },
-                "texturas-old": [
-                    {
-                        "nome": "EXTERIOR",
-                        "imagem": "projetos/ponto/24PONTO.png",
-                        "texto": [
-                            "As varandas, de grande amplitude visual, permitem usufruir de um pôr-do-sol, pousado na linha azul do oceano. O betão branco, a ardósia e a madeira conferem nobreza e simplicidade, criando uma ligação harmoniosa entre o desenho e a textura. Um edifício que se diferencia pelo detalhe nos acabamentos."
-                        ],
-                        "material1": {
-                            "nome": "Textura Ardósia",
-                            "imagem": "projetos/ponto/texturas/exterior_Ardosia.jpg"
-                        },
-                        "material2": {
-                            "nome": "Textura Betão",
-                            "imagem": "projetos/ponto/texturas/exterior_Betao.jpg"
-                        }
-                    }
-                ],
-                "slider-old": [
-                    {
-                        "nome": "WC",
-                        "imagem": "projetos/ponto/interiores/slider_WC.jpg"
-                    },
-                    {
-                        "nome": "SALA",
-                        "imagem": "projetos/ponto/interiores/slider_Sala.jpg"
-                    },
-                    {
-                        "nome": "SALA",
-                        "imagem": "projetos/ponto/interiores/slider_Sala02.jpg"
-                    },
-                    {
-                        "nome": "QUARTO",
-                        "imagem": "projetos/ponto/interiores/slider_Quarto.jpg"
-                    }
-                ],
-                "planta-olds": [
-                    {
-                        "nome": "24PONTO33",
-                        "morada": "RUA",
-                        "tipologia": [
-                            {
-                                "nome": "T2",
-                                "piso": "projetos/ponto/planta/PISO-T2.png",
-                                "nota": "1º PISO - 105M²",
-                                "pisoTop": "projetos/svg/projetos/ponto/planta/t2.svg",
-                                "planta": "projetos/ponto/planta/PLANTA-T2.png",
-                                "tipo": "projetos/svg/simbolos/t2.svg",
-                                "tipoGray": "projetos/svg/simbolos/t2gray.svg"
-                            },
-                            {
-                                "nome": "T3",
-                                "piso": "projetos/ponto/planta/PISO-T3.png",
-                                "nota": "1º PISO - 122M²",
-                                "pisoTop": "projetos/svg/projetos/ponto/planta/t3.svg",
-                                "planta": "projetos/ponto/planta/PLANTA-T3.png",
-                                "tipo": "projetos/svg/simbolos/t3.svg",
-                                "tipoGray": "projetos/svg/simbolos/t3gray.svg"
-                            },
-                            {
-                                "nome": "T4",
-                                "piso": "projetos/ponto/planta/PISO-T4.png",
-                                "nota": "4º PISO - 139M²",
-                                "pisoTop": "projetos/svg/projetos/ponto/planta/t4.svg",
-                                "planta": "projetos/ponto/planta/PLANTA-T4.png",
-                                "tipo": "projetos/svg/simbolos/t4.svg",
-                                "tipoGray": "projetos/svg/simbolos/t4gray.svg"
-                            }
-                        ]
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO 24PONTO33",
-                    "img1": "projetos/ponto/montagem/montagem4.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "O 24Ponto33 é um projeto que prima pela arquitetura irreverente aliada à qualidade dos materiais",
-                        "A classe e o conforto aliam-se, criando apartamentos modernos e únicos na cidade."
-                    ],
-                    "img2": "projetos/ponto/montagem/montagem5.jpg",
-                    "img3": "projetos/ponto/montagem/montagem6.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE ESPINHO",
-                    "image": "projetos/ponto/espinho.jpg",
-                    "text": "Uma cidade que por tradição está ligada ao mar, Espinho é conhecida pelo bom peixe, pelas praias, pela natureza envolvente e pelas ruas com números em vez de nomes. Distingue-se ainda pela sua dinâmica. Para além das praias e do seu areal propício para caminhadas, há espaços de diversão, festivais internacionais de cinema e música, espetáculos, exposições e artes de rua. Na interseção entre a Rua 33 e a Avenida 24, o edifício 24Ponto33 permite através da sua centralidade rápidas deslocações a pé. Viver no 24Ponto33 é adotar um ritmo de vida urbano com o horizonte no mar.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "puro": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Puro Homes / Tower",
-                    "text": "Construction of excellence in the heart of the city of Aveiro.",
-                    "slider": "projetos/puro/slider/PuroDestaque-Banner.jpg",
-                    "alt": "Puro"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/puro/slider/PuroDestaque-Banner.jpg",
-                            "title": "PURO HOMES / TOWER",
-                            "text": "Construction of excellence in the heart of the city of Aveiro."
-                        },
-                        {
-                            "image": "projetos/puro/slider/PuroSalaEstar-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/puro/slider/PuroFrente-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/puro/slider/PuroSalaJantar-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/puro/slider/PuroTraseiras-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/puro/slider/PuroQuarto-Banner.jpg"
-                        },
-                        {
-                            "image": "projetos/puro/slider/PuroCozinha-Banner.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/puro/slider/PuroDestaque-Strip.jpg",
-                        "projetos/puro/slider/PuroSalaEstar-Strip.jpg",
-                        "projetos/puro/slider/PuroFrente-Strip.jpg",
-                        "projetos/puro/slider/PuroSalaJantar-Strip.jpg",
-                        "projetos/puro/slider/PuroTraseiras-Strip.jpg",
-                        "projetos/puro/slider/PuroQuarto-Strip.jpg",
-                        "projetos/puro/slider/PuroCozinha-Strip.jpg"
-                    ]
-                },
-                "image": {
-                    "image": "projetos/puro/PuroFrenteCeu.jpg",
-                    "alt": "Puro"
-                },
-                "image2": {
-                    "image": "projetos/puro/linhas.png",
-                    "alt": "Puro"
-                },
-                "images-old": {
-                    "fachada": "projetos/puro/PuroFrenteCeu.jpg",
-                    "linhas": "projetos/puro/linhas.png",
-                    "assinatura": "projetos/svg/projetos/puro/assinatura.svg",
-                    "fachadaAlt": "projetos/puro/FachadaPuroTower.jpg"
-                },
-                "info": {
-                    "title": "The PURO HOMES and TOWER buildings are located in one of the noblest areas of Aveiro: the Cais da Fonte Nova. Here, it is possible to access the best that the city has to offer, without losing the unique tranquility that characterizes this privileged area.",
-                    "text": "The vast green areas that surround it allow you to enjoy the contact with nature. Without losing sight of the urban lines that define this location, whose luminosity is reflected in the channels of the “Ria de Aveiro”.",
-                    "image1": "projetos/puro/slider/PuroSalaEstar-Banner.jpg",
-                    "alt1": "Puro",
-                    "image2": "projetos/puro/slider/PuroFrente-Banner.jpg",
-                    "alt2": "Puro",
-                    "features": {
-                        "image": "projetos/puro/slider/PuroSalaJantar-Banner.jpg",
-                        "alt": "Puro",
-                        "title": "Characteristics - Puro Homes",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "6 Floors + Retreat"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "24 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T1 - T4"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "52m² - 268m²"
-                            }
-                        ]
-                    },
-                    "features2": {
-                        "image": "projetos/puro/slider/PuroTraseiras-Banner.jpg",
-                        "alt": "Puro",
-                        "title": "Characteristics - Puro Tower",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "9 Floors + Restreat"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "50 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T1 - T4"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "52m² - 166m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "PURO HOMES / TOWER",
-                    "first": "The PURO HOMES and TOWER buildings are located in one of the noblest areas of Aveiro: the Cais da Fonte Nova. Here, it is possible to access the best that the city has to offer, without losing the unique tranquility that characterizes this privileged area.",
-                    "second": "The vast green areas that surround it allow you to enjoy the contact with nature. Without losing sight of the urban lines that define this location, whose luminosity is reflected in the channels of the “Ria de Aveiro”.",
-                    "quote": [
-                        "“De grande impacto visual,",
-                        "a amplitude e proeminência das varandas",
-                        "permite uma vista abrangente sobre a cidade.”"
-                    ],
-                    "author": "Arquiteto Mário Alves",
-                    "symbols": [
-                        {
-                            "nome": "PURO HOMES",
-                            "pisos": "6 Floors + Retreat",
-                            "estacionamento": "Parking",
-                            "apartamentos": "24 Flats",
-                            "tipologia": "T1 - T4",
-                            "area": "52m² - 268m²"
-                        },
-                        {
-                            "nome": "PURO TOWER",
-                            "pisos": "9 Floors + Retreat",
-                            "estacionamento": "Parking",
-                            "apartamentos": "50 Apartments",
-                            "tipologia": "T1 - T4",
-                            "area": "52m² - 166m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Aveiro Forum"
-                        },
-                        {
-                            "place": "Train Station"
-                        },
-                        {
-                            "place": "Manuel Firmino Market"
-                        },
-                        {
-                            "place": "Congress Centre"
-                        },
-                        {
-                            "place": "Meliã Hotel"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/puro/Mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "PURO",
-                    "btnLink": "https://www.google.pt/maps/place/40%C2%B038'26.2%22N+8%C2%B038'32.9%22W/@40.6406012,-8.6436654,848m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d40.6405986!4d-8.6424717",
-                    "default": {
-                        "top": "-127%",
-                        "left": "-114%",
-                        "topM": "-61%",
-                        "leftM": "-146%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "PURO HOMES / TOWER",
-                            "legenda": "",
-                            "imagem": "mapa/pontointeresse_Forum.jpg",
-                            "top": "-127%",
-                            "left": "-114%",
-                            "topM": "-61%",
-                            "leftM": "-146%"
-                        },
-                        {
-                            "nome": "AVEIRO FORUM",
-                            "legenda": "Centro comercial a céu aberto com uma arquitetura única, ideal para quem prefere andar às compras num espaço arejado. Localizado no centro da cidade e aberto durante toda a semana, o Fórum de Aveiro está a cerca de 20 minutos do Puro Homes e Puro Tower.",
-                            "imagem": "mapa/pontointeresse_Forum.jpg",
-                            "top": "-106%",
-                            "left": "-23%",
-                            "topM": "-50%",
-                            "leftM": "-37%"
-                        },
-                        {
-                            "nome": "TRAIN STATION",
-                            "legenda": "O percurso até à estação dos comboios pode ser feito a pé, numa distância de apenas 10 minutos. O nascimento do empreendimento, junto à estação de Aveiro, traz uma nova centralidade à cidade.",
-                            "imagem": "mapa/pontointeresse_Estacao.jpg",
-                            "top": "-37%",
-                            "left": "-132%",
-                            "topM": "-7%",
-                            "leftM": "-167%"
-                        },
-                        {
-                            "nome": "MANUEL FIRMINO MARKET",
-                            "legenda": "A 10 minutos a pé do Puro Homes e Puro Tower, neste mercado retalhista, localizado no coração da cidade, é possível comprar fruta, produtos hortícolas, carnes, peixes ou outros géneros alimentícios.",
-                            "imagem": "mapa/pontointeresse_Mercado.jpg",
-                            "top": "-55%",
-                            "left": "-55%",
-                            "topM": "-20%",
-                            "leftM": "-75%"
-                        },
-                        {
-                            "nome": "CONGRESS CENTRE",
-                            "legenda": "O empreendimento está localizado junto a um edifício emblemático da arquitetura industrial aveirense, a Fábrica Jerónimo Pereira de Campos, atual Centro Cultural e de Congressos de Aveiro. Aberto desde 1995, o edifício recebe anualmente congressos, debates, exposições e espetáculos. O espaço é ainda a sede dos serviços da Câmara Municipal de Aveiro.",
-                            "imagem": "mapa/pontointeresse_Congressos.jpg",
-                            "top": "-209%",
-                            "left": "-118%",
-                            "topM": "-118%",
-                            "leftM": "-150%"
-                        },
-                        {
-                            "nome": "MELIÃ HOTEL",
-                            "legenda": "Localizado junto ao canal da Ria de Aveiro, em frente ao Centro Cultural e de Congressos, o hotel foi inaugurado em 2005 e é o reflexo da arquitetura contemporânea.",
-                            "imagem": "mapa/pontointeresse_Hotel.jpg",
-                            "top": "-206%",
-                            "left": "-88%",
-                            "topM": "-117%",
-                            "leftM": "-114%"
-                        }
-                    ]
-                },
-                "texturas-old": [
-                    {
-                        "nome": "EXTERIOR",
-                        "imagem": "projetos/puro/fachadaTextura.png",
-                        "texto": [
-                            "De grande impacto visual",
-                            "a amplitude e proeminência das varandas",
-                            "permite uma vista abrangente",
-                            "sobre a cidade."
-                        ],
-                        "material1": {
-                            "nome": "Textura Aço Corten",
-                            "imagem": "projetos/puro/texturas/acoCorten.jpeg"
-                        },
-                        "material2": {
-                            "nome": "Textura Betão Negro",
-                            "imagem": "projetos/puro/texturas/betaoPreto.jpeg"
-                        }
-                    }
-                ],
-                "slider-old": [
-                    {
-                        "nome": "WC",
-                        "imagem": "projetos/puro/interiores/wc.jpg"
-                    },
-                    {
-                        "nome": "SALA DE ESTAR",
-                        "imagem": "projetos/puro/interiores/sala_estar.jpg"
-                    },
-                    {
-                        "nome": "SALA DE JANTAR",
-                        "imagem": "projetos/puro/interiores/sala_jantar.jpg"
-                    },
-                    {
-                        "nome": "COZINHA",
-                        "imagem": "projetos/puro/interiores/cozinha.jpg"
-                    },
-                    {
-                        "nome": "QUARTO",
-                        "imagem": "projetos/puro/interiores/quarto.jpg"
-                    }
-                ],
-                "plantas-old": [
-                    {
-                        "nome": "PURO HOMES",
-                        "morada": "RUA CARLOS SILVA M. GUIMARÃES",
-                        "tipologia": [
-                            {
-                                "nome": "T1",
-                                "piso": "projetos/puro/planta/homePiso1.png",
-                                "nota": "RÉS DO CHÃO - 69M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso1.svg",
-                                "planta": "projetos/puro/planta/homePlanta1.png"
-                            },
-                            {
-                                "nome": "T2",
-                                "piso": "projetos/puro/planta/homePiso2.png",
-                                "nota": "RÉS DO CHÃO - 104.5M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso2.svg",
-                                "planta": "projetos/puro/planta/homePlanta2.png"
-                            },
-                            {
-                                "nome": "T3",
-                                "piso": "projetos/puro/planta/homePiso3.png",
-                                "nota": "4º ANDAR - 131M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso3.svg",
-                                "planta": "projetos/puro/planta/homePlanta3.png"
-                            },
-                            {
-                                "nome": "T4",
-                                "piso": "projetos/puro/planta/homePiso4.png",
-                                "nota": "4º PISO - 160M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/homePiso4.svg",
-                                "planta": "projetos/puro/planta/homePlanta4.png"
-                            }
-                        ]
-                    },
-                    {
-                        "nome": "PURO TOWER",
-                        "morada": "RUA CARLOS SILVA M. GUIMARÃES",
-                        "tipologia": [
-                            {
-                                "nome": "T1",
-                                "piso": "projetos/puro/planta/towerPiso1.png",
-                                "nota": "6º ANDAR - 52M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso1.svg",
-                                "planta": "projetos/puro/planta/towerPlanta1.png"
-                            },
-                            {
-                                "nome": "T2",
-                                "piso": "projetos/puro/planta/towerPiso2.png",
-                                "nota": "6º ANDAR - 93.5M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso2.svg",
-                                "planta": "projetos/puro/planta/towerPlanta2.png"
-                            },
-                            {
-                                "nome": "T3",
-                                "piso": "projetos/puro/planta/towerPiso3.png",
-                                "nota": "6º ANDAR - 135M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso3.svg",
-                                "planta": "projetos/puro/planta/towerPlanta3.png"
-                            },
-                            {
-                                "nome": "T4",
-                                "piso": "projetos/puro/planta/towerPiso4.png",
-                                "nota": "5º ANDAR - 166M²",
-                                "pisoTop": "projetos/svg/projetos/puro/planta/towerPiso4.svg",
-                                "planta": "projetos/puro/planta/towerPlanta4.png"
-                            }
-                        ]
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO PURO HOMES E PURO TOWER",
-                    "img1": "projetos/puro/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "As áreas privadas são sublimadas pela tranquilidade dos tons claros e o conforto das madeiras.",
-                        "Um local que privilegia o contraste da paisagem exterior com a sofisticação e requinte do interior, proporcionando dinâmicas e fontes de inspiração que se revelam um sucesso à mesa."
-                    ],
-                    "img2": "projetos/puro/montagem/montagem2.jpg",
-                    "img3": "projetos/puro/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE AVEIRO",
-                    "image": "projetos/puro/cais.png",
-                    "text": "A zona do Cais da Fonte Nova, para além de servir de palco aos principais espetáculos musicais da cidade, tem vindo a ganhar, ao longo dos anos, uma nova centralidade. Este é um local onde se tem verificado uma forte expansão habitacional de qualidade. As zonas verdes circundantes embelezam a paisagem tranquila transmitida pelo canal navegável da Ria de Aveiro. A zona do jardim oferece locais de lazer para atividades desportivas como tabelas de basquete de acesso livre, zona de patinagem e um campo de futebol de relva artificial. Os dias soalheiros e o clima agradável convidam a passear a pé ou de bicicleta até ao centro histórico da cidade. E a proximidade a cafés, supermercados, à Estação de Comboios da CP, ao Mercado Manuel Firmino, ao Centro Cultural e de Congressos e ao Fórum de Aveiro revelam que viver no Puro é respirar a cidade.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "spot": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "Spot",
-                    "text": "Building with Ponto Urbano construction in the city of Aveiro.",
-                    "slider": "projetos/spot/slider/1.jpg",
-                    "alt": "Spot"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/spot/slider/1.jpg",
-                            "title": "SPOT",
-                            "text": "Building with Ponto Urbano construction in the city of Aveiro."
-                        },
-                        {
-                            "image": "projetos/spot/slider/2.jpg"
-                        },
-                        {
-                            "image": "projetos/spot/slider/3.jpg"
-                        },
-                        {
-                            "image": "projetos/spot/slider/4.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/spot/slider/1s.jpg",
-                        "projetos/spot/slider/2s.jpg",
-                        "projetos/spot/slider/3s.jpg",
-                        "projetos/spot/slider/4s.jpg"
-                    ]
-                },
-                "images-old": {
-                    "fachada": "projetos/lux/cover_Lux.jpg",
-                    "linhas": "projetos/lux/desenho-Lux.jpg",
-                    "assinatura": "projetos/svg/projetos/puro/assinatura.svg",
-                    "fachadaAlt": "projetos/lux/cover_Lux03.jpg"
-                },
-                "info": {
-                    "title": "De conceito jovem e dinâmico, o empreendimento Spot dá uma nova cara ao emblemático Café Convívio no centro de Aveiro, perto do polo universitário.",
-                    "text": "Um edifício especialmente focado para jovens e para aqueles que procuram um estilo de vida mais simples e minimalista, mas dotado de espaços para comércio e serviços.",
-                    "image1": "projetos/spot/slider/2.jpg",
-                    "alt1": "Spot",
-                    "image2": "projetos/spot/slider/3.jpg",
-                    "alt2": "Spot",
-                    "features": {
-                        "image": "projetos/spot/slider/2.jpg",
-                        "alt": "Spot",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "16 Flats"
-                            },
-                            
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T1 - T4"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "50m² - 232m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "Spot",
-                    "first": "Localizado numa zona privilegiada da praia da Barra e com uma vista panorâmica que se alonga até ao horizonte, o Lux assenta na criação de um edifício intemporal integrado na envolvente.",
-                    "second": "O conceito do projeto é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
-                    "quote": [
-                        "“O betão ocre e o verde das lâminas do zinco",
-                        "incorporam as tonalidades da areia da vegetação,",
-                        "moldando assim o edifício ao ambiente.”"
-                    ],
-                    "author": "Arquiteto Mário Alves",
-                    "symbols": [
-                        {
-                            "nome": "LUX",
-                            "pisos": "4 Pisos",
-                            "estacionamento": "Estacionamento",
-                            "apartamentos": "16 Apartamentos",
-                            "tipologia": "T1 - T4",
-                            "area": "50m² - 232m²"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Privileged<br/> Location",
-                    "places": [
-                        {
-                            "place": "Infante D. Pedro Park"
-                        },
-                        {
-                            "place": "Hospital of Aveiro"
-                        },
-                        {
-                            "place": "E.B. João Afonso de Aveiro"
-                        },
-                        {
-                            "place": "Aveiro University Campus"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/spot/mapa.jpg",
-                    "title": "LOCATION",
-                    "btn": "SPOT",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-109%",
-                        "left": "-150%",
-                        "topM": "-53%",
-                        "leftM": "-200%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "SPOT",
-                            "legenda": "Com ligação direta à praia pela Rua 33, a apenas 8 minutos a pé, o 24Ponto33 distingue-se pela sua centralidade.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-109%",
-                            "left": "-150%",
-                            "topM": "-53%",
-                            "leftM": "-200%"
-                        },
-                        {
-                            "nome": "INFANTE D. PEDRO PARK",
-                            "legenda": "O edifício está a uma distância de apenas 9 minutos a pé da Estação dos Comboios.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_EstacaoPonto.jpg",
-                            "top": "-53%",
-                            "left": "-48%",
-                            "topM": "-20%",
-                            "leftM": "-67%"
-                        },
-                        {
-                            "nome": "HOSPITAL OF AVEIRO",
-                            "legenda": "A 5 minutos da Biblioteca Municipal José Marmelo Silva.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Biblioteca.jpg",
-                            "top": "-106%",
-                            "left": "-16%",
-                            "topM": "-51%",
-                            "leftM": "-29%"
-                        },
-                        {
-                            "nome": "E.B. JOÃO AFONSO DE AVEIRO",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-220%",
-                            "left": "-48%",
-                            "topM": "-126%",
-                            "leftM": "-67%"
-                        },
-                        {
-                            "nome": "AVEIRO UNIVERSITY CAMPUS",
-                            "legenda": "O Centro Multimeios de Espinho vocacionado para receber diferentes espetáculos está a uma distância de apenas 3 minutos a pé.",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Multimeios.jpg",
-                            "top": "-239%",
-                            "left": "-6%",
-                            "topM": "-140%",
-                            "leftM": "-16%"
-                        }
-                    ]
-                },
-                "slider-old": [
-                    {
-                        "nome": "SALA",
-                        "imagem": "projetos/lux/interiores/slider_Sala.jpg"
-                    },
-                    {
-                        "nome": "VARANDA E SALA",
-                        "imagem": "projetos/lux/interiores/slider_Varanda+Sala.jpg"
-                    },
-                    {
-                        "nome": "ENTRADA",
-                        "imagem": "projetos/lux/interiores/slider_Entrada.jpg"
-                    }
-                ],
-                "lifestyle-old": {
-                    "title": "COMO É VIVER NO LUX",
-                    "img1": "projetos/lux/montagem/montagem1.jpg",
-                    "subtitle": "CONFORTO E ESTILO",
-                    "txt": [
-                        "O edifício, integrado na paisagem é constituído por apartamentos de tipologias T1 a T4, com áreas entre 50m2 a 232 m2.",
-                        "O Lux tem dois pisos subterrâneos com garagens e arrumos e quatro pisos de apartamentos."
-                    ],
-                    "img2": "projetos/lux/montagem/montagem2.jpg",
-                    "img3": "projetos/lux/montagem/montagem3.jpg"
-                },
-                "about-old": {
-                    "title": "SOBRE A BARRA",
-                    "image": "projetos/lux/barra.jpg",
-                    "text": "Galardoada com a Bandeira Azul desde 1989 e com a Bandeira “Praia Acessível, Praia para Todos” desde 2002, a Praia da Barra prevalece como uma das mais marcantes praias portuguesas. Enquadrada paisagisticamente pelo Farol da Barra, reflete o seu encanto no areal dourado, na qualidade das suas águas e na animação estival. As tardes de calor intensas nos meses de verão convidam-no a ir a banhos.",
-                    "link": "/noticias",
-                    "linkText": [
-                        "LEIA MAIS",
-                        "NOTÍCIAS"
-                    ]
-                }
-            },
-            "villar": {
-                "menu": {
-                    "subtitle":"Building",
-                    "title": "V’llar",
-                    "text": "Contemporary Building, 5 minutes from the centre of Aveiro",
-                    "slider": "projetos/villar/slider/full/00.jpg",
-                    "alt": "Villar"
-                },
-                "menu-old": {
-                    "filter": "homeMenu/filter.png",
-                    "slider": [
-                        {
-                            "image": "projetos/villar/slider/full/00.jpg",
-                            "title": "VILLAR",
-                            "title_image": "projetos/villar/logo.png",
-                            "text": [
-                                "Contemporary Building,",
-                                "5 minutes from the centre of Aveiro"
-                            ]
-                        },
-                        {
-                            "image": "projetos/villar/slider/full/01.jpg"
-                        },
-                        {
-                            "image": "projetos/villar/slider/full/02.jpg"
-                        },
-                        {
-                            "image": "projetos/villar/slider/full/03.jpg"
-                        },
-                        {
-                            "image": "projetos/villar/slider/full/04.jpg"
-                        },
-                        {
-                            "image": "projetos/villar/slider/full/05.jpg"
-                        },
-                        {
-                            "image": "projetos/villar/slider/full/06.jpg"
-                        }
-                    ],
-                    "sliderStrips": [
-                        "projetos/villar/slider/thumb/01.jpg",
-                        "projetos/villar/slider/thumb/01.jpg",
-                        "projetos/villar/slider/thumb/02.jpg",
-                        "projetos/villar/slider/thumb/03.jpg",
-                        "projetos/villar/slider/thumb/04.jpg",
-                        "projetos/villar/slider/thumb/05.jpg",
-                        "projetos/villar/slider/thumb/06.jpg"
-                    ]
-                },
-                "info": {
-                    "title": "The V'llar project is located at Estrada de São Bernardo, parish of Glória and Vera-Cruz. A building demarcated by clear tones and discreet textures, which harmonize with its surroundings, combining design, comfort and functionality in the same project. Only 5 minutes from the centre of Aveiro, with very favourable road accesses, it is in a privileged location, enabling an undeniable quality of life.",
-                    "text": "A contemporary development that achieves a balanced symbiosis between two lifestyles, enhancing a sense of tranquility and well-being, while ensuring the perks of a cosmopolitan record.",
-                    "image1": "projetos/villar/slider/full/01.jpg",
-                    "alt1": "Villar",
-                    "image2": "projetos/villar/slider/full/02.jpg",
-                    "alt2": "Villar",
-                    "features": {
-                        "image": "projetos/villar/slider/full/03.jpg",
-                        "alt": "Villar",
-                        "title": "Characteristics",
-                        "features": [
-                            {
-                                "icon": "projetos/svg/simbolos/pisos.svg",
-                                "feature": "4 Floors"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/estacionamento.svg",
-                                "feature": "Parking"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/apartamentos.svg",
-                                "feature": "6 Flats"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/tipologia.svg",
-                                "feature": "T2 - T3"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/garagem.svg",
-                                "feature": "Garage and storage room"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/varandas.svg",
-                                "feature": "Balconies"
-                            },
-                            {
-                                "icon": "projetos/svg/simbolos/area.svg",
-                                "feature": "97m² - 180m²"
-                            }
-                        ]
-                    }
-                },
-                "introTexts-old": {
-                    "title": "V’LLAR",
-                    "first": "The V'llar project is located at Estrada de São Bernardo, parish of Glória and Vera-Cruz. A building demarcated by clear tones and discreet textures, which harmonize with its surroundings, combining design, comfort and functionality in the same project. Only 5 minutes from the centre of Aveiro, with very favourable road accesses, it is in a privileged location, enabling an undeniable quality of life.",
-                    "second": "A contemporary development that achieves a balanced symbiosis between two lifestyles, enhancing a sense of tranquility and well-being, while ensuring the perks of a cosmopolitan record.",
-                    "symbols": [
-                        {
-                            "nome": "V’LLAR",
-                            "pisos": "4 Floors",
-                            "estacionamento": "Parking",
-                            "apartamentos": "6 Flats",
-                            "tipologia": "T2 - T3",
-                            "garagem": "Garage and storage room",
-                            "area": "97m² - 180m²",
-                            "varandas": "Balconies"
-                        }
-                    ]
-                },
-                "map": {
-                    "city":"Aveiro",
-                    "title": "Localização<br/> Priveligiada",
-                    "places": [
-                        {
-                            "place": "EN 109"
-                        },
-                        {
-                            "place": "Glicínias Plaza"
-                        },
-                        {
-                            "place": "Ribeiro de Vilar"
-                        },
-                        {
-                            "place": "E.B 2/3 S. Bernardo"
-                        }
-                    ]
-                },
-                "mapa-old": {
-                    "mapaMobileImg": "projetos/villar/map/map.jpg",
-                    "title": "LOCATION",
-                    "btn": "V’LLAR",
-                    "btnLink": "https://www.google.pt/maps/place/41%C2%B000'14.0%22N+8%C2%B038'16.5%22W/@41.003893,-8.6384752,211m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0xd23bd21193229d9:0x424d17f953b2580c!2zw41saGF2bw!3b1!8m2!3d40.602309!4d-8.672371!3m5!1s0x0:0x0!7e2!8m2!3d41.0038924!4d-8.6379283",
-                    "default": {
-                        "top": "-128%",
-                        "left": "-87%",
-                        "topM": "-67%",
-                        "leftM": "-112%"
-                    },
-                    "locais": [
-                        {
-                            "nome": "V’LLAR",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-128%",
-                            "left": "-87%",
-                            "topM": "-67%",
-                            "leftM": "-112%"
-                        },
-                        {
-                            "nome": "EN 109",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-63%",
-                            "left": "-48%",
-                            "topM": "-23%",
-                            "leftM": "-63%"
-                        },
-                        {
-                            "nome": "GLICÍNIAS PLAZA",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-153%",
-                            "left": "-41%",
-                            "topM": "-81%",
-                            "leftM": "-56%"
-                        },
-                        {
-                            "nome": "RIBEIRA DE VILAR",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-44%",
-                            "left": "-150%",
-                            "topM": "-8%",
-                            "leftM": "-196%"
-                        },
-                        {
-                            "nome": "E.B 2/3 S. BERNARDO",
-                            "legenda": "",
-                            "imagem": "projetos/mapa/ponto/pontointeresse_Praia.jpg",
-                            "top": "-275%",
-                            "left": "-121%",
-                            "topM": "-163%",
-                            "leftM": "-154%"
-                        }
-                    ]
-                }
-            }
+          ]
         }
+      },
+      "garden": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Garden",
+          "text": "Building with Ponto Urbano stamp in the heart of the city of Ílhavo",
+          "slider": "projetos/garden/slider/01.jpg",
+          "alt": "Garden"
+        },
+
+        "image": {
+          "image": "projetos/garden/cover.jpg",
+          "alt": "Gardem"
+        },
+
+        "info": {
+          "title": "O empreendimento Garden localiza-se na cidade de Ílhavo, a apenas 10 minutos das praias da Barra e da Costa Nova e, das cidades de Aveiro e Vagos. Viver em Ílhavo e viver nestes apartamentos significa qualidade de vida, oferecendo a tranquilidade de um pequeno centro urbano.",
+          "text": "A localização do edifício permite aproveitar as praias, adotar um estilo de vida saudável, praticar vários desportos ao ar livre e usufruir dos vários equipamentos culturais e de lazer numa cidade cujo lema é o mar por tradição.",
+          "image1": "projetos/garden/slider/02.jpg",
+          "alt1": "Garden",
+          "image2": "projetos/garden/slider/03.jpg",
+          "alt2": "Garden",
+          "features": {
+            "image": "projetos/garden/slider/01.jpg",
+            "alt": "Garden",
+            "title": "Characteristics Block A",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "3 Floor + Recessed"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "4 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T2 - T3"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "100m² - 150m²"
+              }
+            ]
+          },
+          "features2": {
+            "image": "projetos/garden/slider/03.jpg",
+            "alt": "Garden",
+            "title": "Characteristics Block B",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "2 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "4 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T2"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "100m² - 150m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Ílhavo",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Adriano Nordeste Pavilion"
+            },
+            {
+              "place": "Henriqueta Garden"
+            },
+            {
+              "place": "Ílhavo House of Culture"
+            },
+            {
+              "place": "Town Hall of Ílhavo"
+            },
+            {
+              "place": "Ílhavo Maritime Museum"
+            }
+          ]
+        }
+      },
+      "golden": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Puro Golden",
+          "text": "The excellence of construction in the heart of Aveiro.",
+          "slider": "projetos/golden/new/banner.jpg",
+          "alt": "Puro Golden"
+        },
+        "image": {
+          "image": "projetos/golden/new/01.jpg",
+          "alt": "Puro Golden"
+        },
+        "info": {
+          "title": "The surrounding green areas embellish the tranquil landscape transmitted by the channel of the Ria de Aveiro.",
+          "text": "The garden surroundings offer leisure places inviting to the practice of sport activities and to walk or cycle through the historical centre of the city. The urban and cosmopolitan lines of Puro Golden reflect the luminosity of the place, proving that to live in Puro buildings is to breathe the city.",
+          "image1": "projetos/golden/new/02.jpg",
+          "alt1": "Puro Golden",
+          "image2": "projetos/golden/new/03.jpg",
+          "alt2": "Puro Golden",
+          "features": {
+            "image": "projetos/golden/new/features.jpg",
+            "alt": "Puro Golden",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "6 Floor + Recessed"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "23 Apartments + 2 Stores"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T1 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "63m² - 210m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Aveiro",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Train Station"
+            },
+            {
+              "place": "Shopping"
+            },
+            {
+              "place": "Schools"
+            },
+            {
+              "place": "Markets"
+            }
+          ]
+        }
+      },
+      "greenvilla": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Green Villas",
+          "text": "Villas in a quiet area, 10 minutes from Aveiro",
+          "slider": "projetos/green-villas/slider/full/01.jpg",
+          "alt": "Green Villas"
+        },
+
+        "info": {
+          "title": "The concept transcends aesthetics and creates spaces adapted to the surroundings and conceived to make its residents calm and happy. With straight lines and wide spaces, gives the harmony and serenity so necessary for those who live the fast pace of the city every day.",
+          "text": "These four bedroom houses are located in São Bernardo, next to the S. Bernardo Primary School and S. Bernardo Sports Centre (Pavilion), in a quiet residential area. In just 10 minuntes by car you'll be in the centre of Aveiro city.",
+          "image1": "projetos/green-villas/slider/full/02.jpg",
+          "alt1": "Green Villas",
+          "image2": "projetos/green-villas/slider/full/03.jpg",
+          "alt2": "Green Villas",
+          "features": {
+            "image": "projetos/green-villas/slider/full/04.jpg",
+            "alt": "Green Villas",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Plots / 4 Villas"
+              },
+              {
+                "icon": "projetos/svg/simbolos/garagem.svg",
+                "feature": "Garage"
+              },
+              {
+                "icon": "projetos/svg/simbolos/churrasqueira.svg",
+                "feature": "Barbecue"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T4"
+              }
+            ]
+          }
+        },
+
+        "map": {
+          "city": "Aveiro",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Pavilion and Tennis Courts"
+            },
+            {
+              "place": "EB1 S. Bernardo"
+            }
+          ]
+        }
+      },
+      "lux": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Lux",
+          "text": "The first line of sea on Barra Beach - Ílhavo",
+          "slider": "projetos/lux/slider/01.jpg",
+          "alt": "Lux"
+        },
+        "image": {
+          "image": "projetos/lux/cover.jpg",
+          "alt": "Lux"
+        },
+        "info": {
+          "title": "Located in a privileged area of Praia da Barra and with a panoramic view that stretches to the horizon, Lux is based on the creation of a timeless building integrated into its surroundings.",
+          "text": "The concept of the project is to personalize the horizontal line between the sea and the sky, represented by the blades created around the main volume of the building.",
+          "image1": "projetos/lux/slider/02.jpg",
+          "alt1": "Lux",
+          "image2": "projetos/lux/slider/03.jpg",
+          "alt2": "Lux",
+          "features": {
+            "image": "projetos/lux/slider/04.jpg",
+            "alt": "Cinco Avenida",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "16 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T1 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "50m² - 232m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Ílhavo",
+          "title": "Localização<br/> Priveligiada",
+          "places": [
+            {
+              "place": "Farol da Barra"
+            },
+            {
+              "place": "Beach"
+            },
+            {
+              "place": "Surf"
+            },
+            {
+              "place": "Sail"
+            }
+          ]
+        }
+      },
+      "neon": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Neon",
+          "text": "Building with Ponto urbano construction in the city of Aveiro.",
+          "slider": "projetos/neon/slider/01.jpg",
+          "alt": "Neon"
+        },
+        "image": {
+          "image": "projetos/neon/slider/02.jpg",
+          "alt": "Neon"
+        },
+        "image2": {
+          "image": "projetos/neon/slider/03.jpg",
+          "alt": "Neon"
+        },
+        "info": {
+          "title": "Localizado numa zona privilegiada da praia da Barra e com uma vista panorâmica que se alonga até ao horizonte, o Lux assenta na criação de um edifício intemporal integrado na envolvente.",
+          "text": "O conceito do projeto é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
+          "image1": "projetos/neon/slider/04.jpg",
+          "alt1": "Neon",
+          "image2": "projetos/neon/slider/05.jpg",
+          "alt2": "Neon",
+          "features": {
+            "image": "projetos/neon/slider/06.jpg",
+            "alt": "Cinco Avenida",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "16 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T1 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "50m² - 232m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Aveiro",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Sporting Clube de Aveiro"
+            },
+            {
+              "place": "E.B. Vera Cruz"
+            },
+            {
+              "place": "Carcavelos Bridge"
+            },
+            {
+              "place": "Praça do Peixe Market"
+            }
+          ]
+        }
+      },
+      "point": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Point",
+          "text": "Building with construction Urban Point in Paranhos, city of Oporto.",
+          "slider": "projetos/point/slider/01.jpg",
+          "alt": "Point"
+        },
+        "image": {
+          "image": "projetos/point/slider/05.jpg",
+          "alt": "Point"
+        },
+        "image2": {
+          "image": "projetos/point/slider/06.jpg",
+          "alt": "Point"
+        },
+        "info": {
+          "title": "Modern and attractive, POINT offers comfort and design in the centre of Porto, close to university poles, hospitals and public transport stations.",
+          "text": "Sophistication and modernity are allied, providing the home with the ideal day-to-day comfort.",
+          "image1": "projetos/point/slider/02.jpg",
+          "alt1": "Point",
+          "image2": "projetos/point/slider/03.jpg",
+          "alt2": "Point",
+          "features": {
+            "image": "projetos/point/slider/04.jpg",
+            "alt": "Point",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "5 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "43 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T0 - T2"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "35m² - 73m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Porto",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Campus U. Católica"
+            },
+            {
+              "place": "Faculty PCEUP"
+            },
+            {
+              "place": "University Pole Metro Station"
+            },
+            {
+              "place": "VCI Entrance"
+            }
+          ]
+        }
+      },
+      "ponto": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "24PONTO33",
+          "text": "Multi-family building in the city centre of Espinho.",
+          "slider": "projetos/ponto/slider/01.jpg",
+          "alt": "24PONTO33"
+        },
+        "image": {
+          "image": "projetos/ponto/cover.jpg",
+          "alt": "24PONTO33"
+        },
+        "info": {
+          "title": "The 24Ponto33 venture marks the entrance of Ponto Urbano into the city of Espinho. Just 15 minutes from Porto, the building offers quality of life and modernity.",
+          "text": "Living in Espinho means abandoning the frenetic pace of large urban centres, taking advantage of the extensive stretch of beaches, adopting a healthy lifestyle, practising various outdoor sports and enjoying the various cultural and leisure facilities of the city.",
+          "image1": "projetos/ponto/slider/02.jpg",
+          "alt1": "24PONTO33",
+          "image2": "projetos/ponto/slider/03.jpg",
+          "alt2": "24PONTO33",
+          "features": {
+            "image": "projetos/ponto/slider/04.jpg",
+            "alt": "24PONTO33",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "14 Flats"
+              },
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T2 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "95m² - 215m²"
+              },
+              {
+                "icon": "projetos/svg/simbolos/varandas.svg",
+                "feature": "Balconies"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Espinho",
+          "title": "Localização<br/> Priveligiada",
+          "places": [
+            {
+              "place": "Multimedia Centre"
+            },
+            {
+              "place": "Library"
+            },
+            {
+              "place": "Beach"
+            },
+            {
+              "place": "Train Station"
+            }
+          ]
+        }
+      },
+      "puro": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Puro Homes / Tower",
+          "text": "Construction of excellence in the heart of the city of Aveiro.",
+          "slider": "projetos/puro/slider/01.jpg",
+          "alt": "Puro"
+        },
+        "image": {
+          "image": "projetos/puro/cover.jpg",
+          "alt": "Puro"
+        },
+        "info": {
+          "title": "The PURO HOMES and TOWER buildings are located in one of the noblest areas of Aveiro: the Cais da Fonte Nova. Here, it is possible to access the best that the city has to offer, without losing the unique tranquility that characterizes this privileged area.",
+          "text": "The vast green areas that surround it allow you to enjoy the contact with nature. Without losing sight of the urban lines that define this location, whose luminosity is reflected in the channels of the “Ria de Aveiro”.",
+          "image1": "projetos/puro/slider/02.jpg",
+          "alt1": "Puro",
+          "image2": "projetos/puro/slider/03.jpg",
+          "alt2": "Puro",
+          "features": {
+            "image": "projetos/puro/slider/04.jpg",
+            "alt": "Puro",
+            "title": "Characteristics - Puro Homes",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "6 Floors + Retreat"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "24 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T1 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "52m² - 268m²"
+              }
+            ]
+          },
+          "features2": {
+            "image": "projetos/puro/slider/05.jpg",
+            "alt": "Puro",
+            "title": "Characteristics - Puro Tower",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "9 Floors + Restreat"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "50 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T1 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "52m² - 166m²"
+              }
+            ]
+          }
+        },
+
+        "map": {
+          "city": "Aveiro",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Aveiro Forum"
+            },
+            {
+              "place": "Train Station"
+            },
+            {
+              "place": "Manuel Firmino Market"
+            },
+            {
+              "place": "Congress Centre"
+            },
+            {
+              "place": "Meliã Hotel"
+            }
+          ]
+        }
+      },
+      "spot": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "Spot",
+          "text": "Building with Ponto Urbano construction in the city of Aveiro.",
+          "slider": "projetos/spot/slider/01.jpg",
+          "alt": "Spot"
+        },
+        "info": {
+          "title": "De conceito jovem e dinâmico, o empreendimento Spot dá uma nova cara ao emblemático Café Convívio no centro de Aveiro, perto do polo universitário.",
+          "text": "Um edifício especialmente focado para jovens e para aqueles que procuram um estilo de vida mais simples e minimalista, mas dotado de espaços para comércio e serviços.",
+          "image1": "projetos/spot/slider/02.jpg",
+          "alt1": "Spot",
+          "image2": "projetos/spot/slider/03.jpg",
+          "alt2": "Spot",
+          "features": {
+            "image": "projetos/spot/slider/02.jpg",
+            "alt": "Spot",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "16 Flats"
+              },
+
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T1 - T4"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "50m² - 232m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Aveiro",
+          "title": "Privileged<br/> Location",
+          "places": [
+            {
+              "place": "Infante D. Pedro Park"
+            },
+            {
+              "place": "Hospital of Aveiro"
+            },
+            {
+              "place": "E.B. João Afonso de Aveiro"
+            },
+            {
+              "place": "Aveiro University Campus"
+            }
+          ]
+        }
+      },
+      "villar": {
+        "menu": {
+          "subtitle": "Building",
+          "title": "V’llar",
+          "text": "Contemporary Building, 5 minutes from the centre of Aveiro",
+          "slider": "projetos/villar/slider/full/00.jpg",
+          "alt": "Villar"
+        },
+        "info": {
+          "title": "The V'llar project is located at Estrada de São Bernardo, parish of Glória and Vera-Cruz. A building demarcated by clear tones and discreet textures, which harmonize with its surroundings, combining design, comfort and functionality in the same project. Only 5 minutes from the centre of Aveiro, with very favourable road accesses, it is in a privileged location, enabling an undeniable quality of life.",
+          "text": "A contemporary development that achieves a balanced symbiosis between two lifestyles, enhancing a sense of tranquility and well-being, while ensuring the perks of a cosmopolitan record.",
+          "image1": "projetos/villar/slider/full/01.jpg",
+          "alt1": "Villar",
+          "image2": "projetos/villar/slider/full/02.jpg",
+          "alt2": "Villar",
+          "features": {
+            "image": "projetos/villar/slider/full/03.jpg",
+            "alt": "Villar",
+            "title": "Characteristics",
+            "features": [
+              {
+                "icon": "projetos/svg/simbolos/pisos.svg",
+                "feature": "4 Floors"
+              },
+              {
+                "icon": "projetos/svg/simbolos/estacionamento.svg",
+                "feature": "Parking"
+              },
+              {
+                "icon": "projetos/svg/simbolos/apartamentos.svg",
+                "feature": "6 Flats"
+              },
+              {
+                "icon": "projetos/svg/simbolos/tipologia.svg",
+                "feature": "T2 - T3"
+              },
+              {
+                "icon": "projetos/svg/simbolos/garagem.svg",
+                "feature": "Garage and storage room"
+              },
+              {
+                "icon": "projetos/svg/simbolos/varandas.svg",
+                "feature": "Balconies"
+              },
+              {
+                "icon": "projetos/svg/simbolos/area.svg",
+                "feature": "97m² - 180m²"
+              }
+            ]
+          }
+        },
+        "map": {
+          "city": "Aveiro",
+          "title": "Localização<br/> Priveligiada",
+          "places": [
+            {
+              "place": "EN 109"
+            },
+            {
+              "place": "Glicínias Plaza"
+            },
+            {
+              "place": "Ribeiro de Vilar"
+            },
+            {
+              "place": "E.B 2/3 S. Bernardo"
+            }
+          ]
+        }
+      }
     }
+  }
 }

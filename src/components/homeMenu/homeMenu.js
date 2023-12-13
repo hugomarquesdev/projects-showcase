@@ -6,20 +6,36 @@ import styled, { css } from "styled-components"
 import Div100vh from "react-div-100vh"
 
 import Sbs from "./menuBackground"
-import logo from "../../images/misc/Logo-CantoSuperiorDireito.svg"
+import logo from "../../images/logo.svg"
 
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
 import pt2020 from "../../images/pt2020.png"
 import pt2020W from "../../images/pt2020w.png"
 
-const HomeMenu = ({ data, blogImage, title, hasSlider, isNews, wordpressImage }) => (
+const HomeMenu = ({
+  data,
+  blogImage,
+  title,
+  hasSlider,
+  isNews,
+  wordpressImage,
+}) => (
   <StyledMenu hasSlider={hasSlider}>
     <div className="corner" id="logoHome">
-      <Link to='/' className="logoHome">
+      <Link to="/" className="logoHome">
         <img src={logo} alt="logo" />
       </Link>
-      <a href="/Ponto_Urbano-Ficha_projeto.pdf" target="_blank" rel="nofollow" className="logoFinan" id="logoFinan">
-        <img src={useBreakpoint().mobile ? pt2020 : pt2020W} alt="Financiamento" />
+      <a
+        href="/Ponto_Urbano-Ficha_projeto.pdf"
+        target="_blank"
+        rel="nofollow"
+        className="logoFinan"
+        id="logoFinan"
+      >
+        <img
+          src={useBreakpoint().mobile ? pt2020 : pt2020W}
+          alt="Financiamento"
+        />
       </a>
     </div>
     <div className="background">
@@ -48,16 +64,16 @@ const StyledMenu = styled(Div100vh)`
   width: 100%;
   position: relative;
   overflow: hidden;
-  .corner{
+  .corner {
     position: absolute;
     top: 3rem;
     right: 3rem;
     width: 13.5vw;
     z-index: 1;
-    @media only screen and (max-width: 768px){
+    @media only screen and (max-width: 768px) {
       top: 12vw;
       right: 7.5%;
-      width: 30vw
+      width: 30vw;
     }
   }
   .logoHome {
@@ -70,7 +86,7 @@ const StyledMenu = styled(Div100vh)`
     img {
       width: 100%;
     }
-    @media only screen and (max-width: 768px){
+    @media only screen and (max-width: 768px) {
       margin-top: 0;
     }
   }
@@ -85,7 +101,7 @@ const StyledMenu = styled(Div100vh)`
   @media screen and (max-width: 768px) {
     height: 50vh;
 
-    ${props =>
+    ${(props) =>
       props.hasSlider &&
       css`
         height: calc(50vh + 10rem);
@@ -101,7 +117,7 @@ const StyledMenu = styled(Div100vh)`
   @media screen and (max-width: 415px) {
     height: 52.5vh;
 
-    ${props =>
+    ${(props) =>
       props.hasSlider &&
       css`
         height: calc(52.5vh + 5rem);
