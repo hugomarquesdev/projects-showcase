@@ -1,71 +1,16 @@
-import React, { useState, useRef } from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import { media } from "./Styles"
-import addToMailchimp from "gatsby-plugin-mailchimp"
-
-// import fbTrack from '../custom/use-pixel'
-// import { trackCustomEvent } from 'gatsby-plugin-google-analytics'
-const axios = require("axios")
 
 const Form = ({ data }) => {
   const [newsletter, setNewsletter] = useState(false)
-  const [success, setSuccess] = useState(false)
+  const [success] = useState(false)
   const [terms, setTerms] = useState()
-  const form = useRef()
-
-  function formSubmit(e) {
-    e.preventDefault()
-
-    // IF USER SELECTED SUBSCRIBE TO NEWSLETTER
-    newsletter &&
-      addToMailchimp(document.querySelector("#email").value, {
-        FNAME: document.querySelector("#name").value,
-        LNAME: document.querySelector("#surname").value,
-      })
-
-    // IF USER ACCEPTED TERMS
-    if (terms) {
-      var formData = new FormData(form.current)
-
-      formData.append("name", document.querySelector("#name").value)
-      formData.append("surname", document.querySelector("#surname").value)
-      formData.append("phone", document.querySelector("#phone").value)
-      formData.append("email", document.querySelector("#email").value)
-      formData.append("city", document.querySelector("#city").value)
-      formData.append("message", document.querySelector("#message").value)
-
-      axios
-        // .post("https://pontourbano.pt/form-contact.php", formData, {
-        .post(
-          "https://invisual.pt/teste-form/ponto-urbano/form-contact.php",
-          formData,
-          {
-            headers: {
-              Accept: "application/json",
-              "Content-Type": "multipart/form-data; charset=UTF-8",
-            },
-          }
-        )
-        .then(() => {
-          // typeof window !== "undefined" &&
-          //     window.gtag("event", 'Click', {
-          //         event_category: "Formulário de Contacto",
-          //         event_label: formData.get('Submetido')
-          //     })
-          setSuccess(true)
-          setTerms()
-          form.current.reset()
-        })
-    } else {
-      setTerms(false)
-      setSuccess(false)
-    }
-  }
 
   return (
     <StyledForm>
       <div className="form">
-        <form ref={form} onSubmit={formSubmit}>
+        <form>
           <div className="grid">
             <label>
               <h4 className="uppercase">{data.name}</h4>
@@ -118,14 +63,14 @@ const Form = ({ data }) => {
                 <h5>{data.warning}</h5>
               </label>
             </div>
-            <button type="submit" className="btn">
+            <button className="btn">
               <h5>{data.send}</h5>
             </button>
           </div>
 
           {terms === false && (
             <h4 className="red">
-              Tem que aceitar os Termos e Condições e Política de Privacidade.
+              You must agree to the Terms and Conditions and Privacy Policy.
             </h4>
           )}
           {success && <h4 className="green">{data.success}</h4>}

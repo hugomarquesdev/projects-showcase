@@ -8,83 +8,83 @@
       "filter": "projetos/filter.png",
       "content": [
         {
-          "title": "V’llar",
+          "title": "Woof",
           "image": "projetos/newCards/07.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/villar",
           "linkText": "More info"
         },
         {
-          "title": "Green Villas",
+          "title": "Dunder Miflin",
           "image": "projetos/newCards/08.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/green-villas",
           "linkText": "More info"
         },
         {
-          "title": "Puro Homes / Tower",
+          "title": "Brufen Comprimidens",
           "image": "projetos/newCards/09.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/puro",
           "linkText": "More info"
         },
         {
-          "title": "Cinco Avenida",
+          "title": "Fifth Avenue",
           "image": "projetos/newCards/10.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/cincoavenida",
           "linkText": "More info"
         },
         {
-          "title": "Garden",
+          "title": "Schrute Farms",
           "image": "projetos/newCards/11.jpg",
-          "city": "Ílhavo",
+          "city": "Utica",
           "link": "/projetos/garden",
           "linkText": "More info"
         },
         {
-          "title": "24Ponto33",
+          "title": "Beet Root",
           "image": "projetos/newCards/12.jpg",
-          "city": "Espinho",
+          "city": "Newark",
           "link": "/projetos/24ponto33",
           "linkText": "More info"
         },
         {
-          "title": "Lux",
+          "title": "Vance Ref.",
           "image": "projetos/newCards/13.jpg",
-          "city": "Barra",
+          "city": "São Paulo",
           "link": "/projetos/lux",
           "linkText": "More info"
         },
         {
-          "title": "Spot",
+          "title": "Scranton",
           "image": "projetos/newCards/14.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/spot",
           "linkText": "More info"
         },
         {
-          "title": "Point",
+          "title": "Toint",
           "image": "projetos/newCards/15.jpg",
-          "city": "Porto - Paranhos",
+          "city": "London - Paranhos",
           "link": "/projetos/point",
           "linkText": "More info"
         },
         {
-          "title": "Neon",
+          "title": "Shining",
           "image": "projetos/newCards16.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/neon",
           "linkText": "More info"
         }
       ]
     },
     "about": {
-      "title": "SOBRE A NOSSA EQUIPA",
+      "title": "ABOUT OUR TEAM",
       "image": "misc/sobreEquipa.jpg",
-      "text": "A formação de uma equipa multidisciplinar para o desenvolvimento de projetos é uma característica marcante no modo de atuação da Ponto Urbano. Contamos com um conjunto de profissionais qualificados e com uma vasta experiência nas suas áreas da atividade, que numa perspetiva colaborativa, desenvolvem um trabalho em prol de um objetivo comum: a melhor solução para o melhor projeto.",
+      "text": "Our hallmark methodology lies in assembling a diverse, multidisciplinary team dedicated to project development. Our team comprises exceptionally talented professionals, each bringing a wealth of experience from their specific sectors. United in a collaborative effort, they are committed to a common objective: discovering the optimal solution for the most outstanding project. It's this collective expertise and synergy that fundamentally contribute to the success and caliber of our projects.",
       "link": "/equipa",
-      "linkText": ["CONHEÇA A NOSSA EQUIPA"]
+      "linkText": ["KNOW OUR TEAM"]
     }
   }
 }

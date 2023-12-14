@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link } from "gatsby"
 import { CSSTransition } from "react-transition-group"
 import { useBreakpoint } from "gatsby-plugin-breakpoints"
-import { media } from '../Styles'
+import { media } from "../Styles"
 
 import Panel from "./panel"
 
@@ -29,168 +29,207 @@ import LogoWhite from "../../images/nav/QuadradoBranco.svg"
 import LangSwap from "./langSwap"
 
 const SideBar = ({ content, news, projetosPortfolio, projetosVenda }) => {
-    const breakpoints = useBreakpoint()
-    const [open, setOpen] = useState(false)
+  const breakpoints = useBreakpoint()
+  const [open, setOpen] = useState(false)
 
-    return (
-        <StyledBar id="sidebar">
-            <Div100vh className="sideLogo">
-                <button className="hambLogo" onClick={() => setOpen(!open)}>
-                    <div className="menuImgCont">
-                        <img src={open ? close : menuB} className="menu" alt="menu" id="menuIcon" />
-                    </div>
-                    <div className='menu-txt' style={open ? {color:'#fff'} : {}}>
-                        <span>{open ? 'Fechar' : 'Menu'}</span>
-                    </div>
-                </button>
-                <Link to='/' className='logo'>
-                    <img src={open ? LogoWhite : LogoBlack} className="logo-image" alt="Ponto Urbano"/>
-                </Link>
-                <div className="social">
-                    {!news && // IF INSIDE A NEWS, DON'T SHOW LANG SWITCHER
-                        <LangSwap open={open}/>
-                    }
+  return (
+    <StyledBar id="sidebar">
+      <Div100vh className="sideLogo">
+        <button className="hambLogo" onClick={() => setOpen(!open)}>
+          <div className="menuImgCont">
+            <img
+              src={open ? close : menuB}
+              className="menu"
+              alt="menu"
+              id="menuIcon"
+            />
+          </div>
+          <div className="menu-txt" style={open ? { color: "#fff" } : {}}>
+            <span>{open ? "Fechar" : "Menu"}</span>
+          </div>
+        </button>
+        <Link to="/" className="logo">
+          <img
+            src={open ? LogoWhite : LogoBlack}
+            className="logo-image"
+            alt="Home Simple"
+          />
+        </Link>
+        <div className="social">
+          {!news && ( // IF INSIDE A NEWS, DON'T SHOW LANG SWITCHER
+            <LangSwap open={open} />
+          )}
 
-                    <a href="https://www.facebook.com/pontourbano.consultores/">
-                        <img src={open ? face : faceB} alt="face" id="faceIcon" className="socialImgs socialImgs-face"/>
-                    </a>
-                    <a href="https://www.instagram.com/pontourbanoportugal/">
-                        <img src={open ? insta : instaB} alt="insta" id="instaIcon" className="socialImgs"/>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCYSiA12IkpSrKKiuUm-tCOA">
-                        <img src={open ? tube : tubeB} alt="tube" id="tubeIcon" className="socialImgs"/>
-                    </a>
-                    <a href="https://www.linkedin.com/company/pontourbano-consultores">
-                        <img src={open ? linked : linkedB} alt="linked" id="linkedIcon" className="socialImgs"/>
-                    </a>
-                </div>
-            </Div100vh>
+          <a href="https://github.com/hugomarquesdev/">
+            <img
+              src={open ? face : faceB}
+              alt="face"
+              id="faceIcon"
+              className="socialImgs socialImgs-face"
+            />
+          </a>
+          <a href="https://github.com/hugomarquesdev/">
+            <img
+              src={open ? insta : instaB}
+              alt="insta"
+              id="instaIcon"
+              className="socialImgs"
+            />
+          </a>
+          <a href="https://github.com/hugomarquesdev/">
+            <img
+              src={open ? tube : tubeB}
+              alt="tube"
+              id="tubeIcon"
+              className="socialImgs"
+            />
+          </a>
+          <a href="https://github.com/hugomarquesdev/">
+            <img
+              src={open ? linked : linkedB}
+              alt="linked"
+              id="linkedIcon"
+              className="socialImgs"
+            />
+          </a>
+        </div>
+      </Div100vh>
 
-            {/* MOBILE */}
-            <div className="navbar__mobile black">
-                <Link to="/" className="logo-container">
-                    <img src={open ? LogoWhite : LogoBlack} alt="Logo Preto" />
-                </Link>
-                <button className="logo-container-2" style={open ? {color:'#fff'} : {}} onClick={() => setOpen(!open)}>
-                    <span>{open ? 'Fechar' : 'Menu'}</span>
-                </button>
-            </div>
-            {/*  */}
+      {/* MOBILE */}
+      <div className="navbar__mobile black">
+        <Link to="/" className="logo-container">
+          <img src={open ? LogoWhite : LogoBlack} alt="Logo Preto" />
+        </Link>
+        <button
+          className="logo-container-2"
+          style={open ? { color: "#fff" } : {}}
+          onClick={() => setOpen(!open)}
+        >
+          <span>{open ? "Fechar" : "Menu"}</span>
+        </button>
+      </div>
+      {/*  */}
 
-
-            {/* OPEN MENU */}
-            <CSSTransition in={open} timeout={300} classNames={breakpoints.mobile ? 'panel-animation-top' : 'panel-animation-left'} unmountOnExit>
-                <Panel 
-                    open={open}
-                    news={news} 
-                    content={content}
-                    projetosPortfolio={projetosPortfolio}
-                    projetosVenda={projetosVenda}
-                />
-            </CSSTransition>
-        </StyledBar>
-    )
+      {/* OPEN MENU */}
+      <CSSTransition
+        in={open}
+        timeout={300}
+        classNames={
+          breakpoints.mobile ? "panel-animation-top" : "panel-animation-left"
+        }
+        unmountOnExit
+      >
+        <Panel
+          open={open}
+          news={news}
+          content={content}
+          projetosPortfolio={projetosPortfolio}
+          projetosVenda={projetosVenda}
+        />
+      </CSSTransition>
+    </StyledBar>
+  )
 }
 
 export default SideBar
 
 const StyledBar = styled.div`
+  position: fixed;
+  z-index: 51;
+
+  .sideLogo {
+    width: 7.3%;
+    z-index: 56;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
-    z-index: 51;
+    top: 0;
+    padding: 2.5rem 0;
+  }
 
-    .sideLogo {
-        width: 7.3%;
-        z-index: 56;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        padding:2.5rem 0;
+  .hambLogo {
+    -webkit-transition: width 0.2s; /* Safari prior 6.1 */
+    transition: width 0.2s;
+
+    .menuImgCont {
+      width: 100%;
+
+      .menu {
+        width: 2vw;
+        max-height: 20px;
+        height: auto;
+      }
     }
 
-    .hambLogo {
-        -webkit-transition: width 0.2s; /* Safari prior 6.1 */
-        transition: width 0.2s;
+    .menu-txt {
+      transform: rotate(-90deg);
+      margin-top: 2rem;
+      text-transform: uppercase;
 
-        .menuImgCont {
-            width: 100%;
+      span {
+        font-family: "Montserrat", serif;
+        font-weight: 500;
+      }
+    }
+  }
 
-            .menu {
-                width: 2vw;
-                max-height: 20px;
-                height: auto;
-            }
-        }
+  .social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
 
-        .menu-txt{
-            transform:rotate(-90deg);
-            margin-top:2rem;
-            text-transform:uppercase;
-
-            span{
-                font-family:'Montserrat', serif;
-                font-weight:500;
-            }
-        }
+    .lang-swap {
+      text-transform: uppercase;
     }
 
-    .social {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap:1.5rem;
-        
-        .lang-swap{
-            text-transform: uppercase;
+    a {
+      .socialImgs {
+        width: 1vw;
+      }
+      .socialImgs-face {
+        width: 0.6vw;
+      }
+
+      @media screen and (max-width: 2300px) {
+        .socialImgs {
+          width: 0.9vw;
         }
-        
-        a {            
-            .socialImgs {
-                width: 1vw;
-            }
-            .socialImgs-face {
-                width: 0.6vw;
-            }
 
-            @media screen and (max-width: 2300px) {
-                .socialImgs {
-                    width: 0.9vw;
-                }
-                
-                .socialImgs-face {
-                    width: 0.5vw;
-                }
-            }
-
-            @media screen and (max-width: 1440px) {
-                .socialImgs {
-                    width: 1.2vw;
-                }
-                
-                .socialImgs-face {
-                    width: 0.7vw;
-                }
-            }
-
-            @media screen and (max-width: 1150px) {
-                .socialImgs {
-                    width: 1.4vw;
-                }
-                
-                .socialImgs-face {
-                    width: 0.8vw;
-                }
-            }
+        .socialImgs-face {
+          width: 0.5vw;
         }
-    }
+      }
 
-    .navbar__mobile {
-        display: none;
-    }
+      @media screen and (max-width: 1440px) {
+        .socialImgs {
+          width: 1.2vw;
+        }
 
-    ${media.m`
+        .socialImgs-face {
+          width: 0.7vw;
+        }
+      }
+
+      @media screen and (max-width: 1150px) {
+        .socialImgs {
+          width: 1.4vw;
+        }
+
+        .socialImgs-face {
+          width: 0.8vw;
+        }
+      }
+    }
+  }
+
+  .navbar__mobile {
+    display: none;
+  }
+
+  ${media.m`
         width: 100%;
         position: absolute;
         
@@ -233,7 +272,7 @@ const StyledBar = styled.div`
         }
     `}
 
-    ${media.s`
+  ${media.s`
         .sideLogo {
             display: none;
         }
@@ -249,41 +288,40 @@ const StyledBar = styled.div`
 
     // MENU ANIMATIONS
     .panel-animation-left-enter {
-        opacity: 0;
-        transform:translateX(-100%);
-    }
-    .panel-animation-left-enter-active {
-        opacity: 1;
-        transform:translateX(0);
-        transition: opacity 100ms, transform 300ms;
-    }
-    .panel-animation-left-exit {
-        opacity: 1;
-        transform:translateX(0);
-    }
-    .panel-animation-left-exit-active {
-        opacity: 0;
-        transform:translateX(-100%);
-        transition: opacity 100ms, transform 300ms;
-    }
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  .panel-animation-left-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 100ms, transform 300ms;
+  }
+  .panel-animation-left-exit {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .panel-animation-left-exit-active {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 100ms, transform 300ms;
+  }
 
-
-    .panel-animation-top-enter {
-        opacity: 0;
-        transform:translateY(-100%);
-    }
-    .panel-animation-top-enter-active {
-        opacity: 1;
-        transform:translateY(0);
-        transition: opacity 100ms, transform 300ms;
-    }
-    .panel-animation-top-exit {
-        opacity: 1;
-        transform:translateY(0);
-    }
-    .panel-animation-top-exit-active {
-        opacity: 0;
-        transform:translateY(-100%);
-        transition: opacity 100ms, transform 300ms;
-    }
+  .panel-animation-top-enter {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  .panel-animation-top-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 100ms, transform 300ms;
+  }
+  .panel-animation-top-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .panel-animation-top-exit-active {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 100ms, transform 300ms;
+  }
 `

@@ -10,44 +10,44 @@
       "filter": "projetos/filter.png",
       "content": [
         {
-          "title": "Puro Golden",
+          "title": "Golden Cube",
           "image": "projetos/newCards/01.jpg",
-          "city": "Aveiro",
+          "city": "Scranton",
           "link": "/projetos/golden",
           "linkText": "See More"
         },
         {
-          "title": "V’llar",
+          "title": "Woof",
           "image": "projetos/newCards/02.jpg",
           "city": "São Bernardo",
           "link": "/projetos/villar",
           "linkText": "See More"
         },
         {
-          "title": "Green Villas",
+          "title": "Dunder Miflin",
           "image": "projetos/newCards/03.jpg",
           "city": "São Bernardo",
           "link": "/projetos/green-villas",
           "linkText": "See More"
         },
         {
-          "title": "Garden",
+          "title": "Schrute Farms",
           "image": "projetos/newCards/04.jpg",
-          "city": "Ílhavo",
+          "city": "Utica",
           "link": "/projetos/garden",
           "linkText": "See More"
         },
         {
-          "title": "24Ponto33",
+          "title": "Beet Root",
           "image": "projetos/newCards/05.jpg",
-          "city": "Espinho",
+          "city": "Newark",
           "link": "/projetos/24ponto33",
           "linkText": "See More"
         },
         {
-          "title": "Lux",
+          "title": "Vance Ref.",
           "image": "projetos/newCards/06.jpg",
-          "city": "Barra",
+          "city": "São Paulo",
           "link": "/projetos/lux",
           "linkText": "See More"
         }
@@ -56,7 +56,7 @@
     "about": {
       "title": "SOBRE A NOSSA EQUIPA",
       "image": "misc/sobreEquipa.jpg",
-      "text": "A formação de uma equipa multidisciplinar para o desenvolvimento de projetos é uma característica marcante no modo de atuação da Ponto Urbano. Contamos com um conjunto de profissionais qualificados e com uma vasta experiência nas suas áreas da atividade, que numa perspetiva colaborativa, desenvolvem um trabalho em prol de um objetivo comum: a melhor solução para o melhor projeto.",
+      "text": "A formação de uma equipa multidisciplinar para o desenvolvimento de projetos é uma característica marcante no modo de atuação da Home Simple. Contamos com um conjunto de profissionais qualificados e com uma vasta experiência nas suas áreas da atividade, que numa perspetiva colaborativa, desenvolvem um trabalho em prol de um objetivo comum: a melhor solução para o melhor projeto.",
       "link": "/equipa",
       "linkText": ["CONHEÇA A NOSSA EQUIPA"]
     }

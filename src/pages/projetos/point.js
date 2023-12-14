@@ -22,7 +22,7 @@ const PointPage = () => {
 
   return (
     <Layout form={t("global", { returnObjects: true }).form} hideForm>
-      <Seo title="Point" />
+      <Seo title="Toint" />
       <Sidebar
         content={t("global", { returnObjects: true }).sidebar}
         projetosPortfolio={t("portfolio", { returnObjects: true }).projetos}

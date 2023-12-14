@@ -23,7 +23,7 @@ const GardenPage = () => {
 
   return (
     <Layout form={t("global", { returnObjects: true }).form} hideForm>
-      <Seo title="Garden" />
+      <Seo title="Schrute Farms" />
       <Sidebar
         content={t("global", { returnObjects: true }).sidebar}
         projetosPortfolio={t("portfolio", { returnObjects: true }).projetos}

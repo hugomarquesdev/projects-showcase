@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "home-simple",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Home Simple excels in the construction, promotion, and restoration of superior quality developments situated in exceptional locations.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "@hugomarquesdev",
   "dependencies": {
     "axios": "^0.24.0",
     "babel-plugin-styled-components": "^1.13.3",
@@ -29,7 +29,6 @@
     "gatsby-plugin-styled-components": "^5.1.0",
     "gatsby-remark-images": "^6.1.0",
     "gatsby-source-filesystem": "^4.1.0",
-    "gatsby-source-wordpress": "^6.1.0",
     "gatsby-transformer-sharp": "^4.1.0",
     "i18next": "^21.4.0",
     "node-sass": "^9.0.0",

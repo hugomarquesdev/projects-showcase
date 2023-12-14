@@ -1,8 +1,5 @@
 import { Link } from "gatsby"
 import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
-// import News from "./news/news"
-// import { useI18next } from 'gatsby-plugin-react-i18next'
 import { Image } from "./Images"
 import { media } from "./Styles"
 
@@ -17,8 +14,6 @@ import linked from "../images/homeMenu/linked.svg"
 import pt2020 from "../images/pt2020w.png"
 
 const Footer = ({ form, hideForm }) => {
-  //   const {language} = useI18next()
-
   return (
     <>
       {!hideForm && <Form data={form} />}
@@ -27,22 +22,38 @@ const Footer = ({ form, hideForm }) => {
           <div className="logo-social" id="logo-social">
             <div className="logo">
               <Link to="/">
-                <img src={logo} alt="Ponto Urbano" />
+                <img src={logo} alt="Home Simple" />
               </Link>
             </div>
             <div className="social">
               <span>Siga-nos em: </span>
               <div className="social-icons">
-                <a href="https://github.com/hugomarquesdev">
+                <a
+                  href="https://github.com/hugomarquesdev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={face} alt="Facebook" />
                 </a>
-                <a href="https://github.com/hugomarquesdev">
+                <a
+                  href="https://github.com/hugomarquesdev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={insta} alt="Instagram" />
                 </a>
-                <a href="https://github.com/hugomarquesdev">
+                <a
+                  href="https://github.com/hugomarquesdev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={tube} alt="Youtube" />
                 </a>
-                <a href="https://github.com/hugomarquesdev">
+                <a
+                  href="https://github.com/hugomarquesdev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={linked} alt="LinkedIn" />
                 </a>
               </div>
@@ -52,7 +63,7 @@ const Footer = ({ form, hideForm }) => {
             <a
               href="https://github.com/hugomarquesdev"
               target="_blank"
-              rel="nofollow"
+              rel="noreferrer"
             >
               <img src={pt2020} alt="PT2020" />
             </a>

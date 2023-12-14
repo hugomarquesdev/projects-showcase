@@ -23,7 +23,7 @@ const LuxPage = () => {
 
   return (
     <Layout form={t("global", { returnObjects: true }).form} hideForm>
-      <Seo title="Lux" />
+      <Seo title="Vance Ref." />
       <Sidebar
         content={t("global", { returnObjects: true }).sidebar}
         projetosPortfolio={t("portfolio", { returnObjects: true }).projetos}

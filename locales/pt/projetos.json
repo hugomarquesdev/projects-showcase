@@ -2,16 +2,16 @@
   "projetos": {
     "cards": [
       {
-        "title": "Puro Golden",
+        "title": "Golden Cube",
         "image": "projetos/newCards/01.jpg",
-        "city": "Aveiro",
+        "city": "Scranton",
         "link": "/projetos/golden",
         "linkText": "Ver mais",
         "venda": true,
         "portfolio": false
       },
       {
-        "title": "V’llar",
+        "title": "Woof",
         "image": "projetos/newCards/06.jpg",
         "city": "São Bernardo",
         "link": "/projetos/villar",
@@ -20,7 +20,7 @@
         "portfolio": true
       },
       {
-        "title": "Green Villas",
+        "title": "Dunder Miflin",
         "image": "projetos/newCards/07.jpg",
         "city": "São Bernardo",
         "link": "/projetos/green-villas",
@@ -29,72 +29,72 @@
         "portfolio": true
       },
       {
-        "title": "Garden",
+        "title": "Schrute Farms",
         "image": "projetos/newCards/08.jpg",
-        "city": "Ílhavo",
+        "city": "Utica",
         "link": "/projetos/garden",
         "linkText": "Ver mais",
         "venda": true,
         "portfolio": true
       },
       {
-        "title": "24Ponto33",
+        "title": "Beet Root",
         "image": "projetos/newCards/09.jpg",
-        "city": "Espinho",
+        "city": "Newark",
         "link": "/projetos/24ponto33",
         "linkText": "Ver mais",
         "venda": true,
         "portfolio": true
       },
       {
-        "title": "Lux",
+        "title": "Vance Ref.",
         "image": "projetos/newCards/10.jpg",
-        "city": "Barra",
+        "city": "São Paulo",
         "link": "/projetos/lux",
         "linkText": "Ver mais",
         "venda": true,
         "portfolio": true
       },
       {
-        "title": "Puro Homes / Tower",
+        "title": "Brufen Comprimidens",
         "image": "projetos/newCards/11.jpg",
-        "city": "Aveiro",
+        "city": "Scranton",
         "link": "/projetos/puro",
         "linkText": "Ver mais",
         "venda": false,
         "portfolio": true
       },
       {
-        "title": "Cinco Avenida",
+        "title": "Fifth Avenue",
         "image": "projetos/newCards/12.jpg",
-        "city": "Aveiro",
+        "city": "Scranton",
         "link": "/projetos/cincoavenida",
         "linkText": "Ver mais",
         "venda": false,
         "portfolio": true
       },
       {
-        "title": "Spot",
+        "title": "Scranton",
         "image": "projetos/newCards/13.jpg",
-        "city": "Aveiro",
+        "city": "Scranton",
         "link": "/projetos/spot",
         "linkText": "Ver mais",
         "venda": false,
         "portfolio": true
       },
       {
-        "title": "Point",
+        "title": "Toint",
         "image": "projetos/newCards/14.jpg",
-        "city": "Porto - Paranhos",
+        "city": "London - Paranhos",
         "link": "/projetos/point",
         "linkText": "Ver mais",
         "venda": false,
         "portfolio": true
       },
       {
-        "title": "Neon",
+        "title": "Shining",
         "image": "projetos/newCards/15.jpg",
-        "city": "Aveiro",
+        "city": "Scranton",
         "link": "/projetos/neon",
         "linkText": "Ver mais",
         "venda": false,
@@ -105,25 +105,25 @@
       "cinco": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Cinco Avenida",
-          "text": "A reabilitação da Av. Dr. Lourenço Peixinho na cidade de Aveiro",
+          "title": "Fifth Avenue",
+          "text": "A reabilitação da Av. Rua Dr. Lourenço Peixinho na cidade de Scranton",
           "slider": "projetos/cincoAvenida/slider/01.jpg",
-          "alt": "Cinco Avenida"
+          "alt": "Fifth Avenue"
         },
         "image": {
           "image": "projetos/cincoAvenida/cover.jpg",
-          "alt": "Cinco Avenida"
+          "alt": "Fifth Avenue"
         },
         "info": {
-          "title": "O empreendimento Cinco Avenida nasce da vontade de reabilitar uma fachada histórica da cidade, contribuindo para o rejuvenescimento da mais antiga avenida de Aveiro, a Lourenço Peixinho.",
+          "title": "O empreendimento Fifth Avenue nasce da vontade de reabilitar uma fachada histórica da cidade, contribuindo para o rejuvenescimento da mais antiga avenida de Scranton, a Lourenço Peixinho.",
           "text": "O projeto, com sete apartamentos, representa a relação perfeita entre a conservação da história e a arquitetura contemporânea, um edifício moderno, com fachadas revestidas a textura zinco “rouge terre” e localização privilegiada, com acessos alternativos.",
           "image1": "projetos/cincoAvenida/slider/02.jpg",
-          "alt1": "Cinco Avenida",
+          "alt1": "Fifth Avenue",
           "image2": "projetos/cincoAvenida/slider/01.jpg",
-          "alt2": "Cinco Avenida",
+          "alt2": "Fifth Avenue",
           "features": {
             "image": "projetos/cincoAvenida/slider/03.jpg",
-            "alt": "Cinco Avenida",
+            "alt": "Fifth Avenue",
             "title": "Características",
             "features": [
               {
@@ -151,14 +151,14 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
-              "place": "Capitania de Aveiro"
+              "place": "Capitania de Scranton"
             },
             {
-              "place": "Ria de Aveiro"
+              "place": "Ria de Scranton"
             },
             {
               "place": "Teatro"
@@ -175,25 +175,25 @@
       "garden": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Garden",
-          "text": "Obra com carimbo Ponto Urbano no coração da cidade de Ílhavo",
+          "title": "Schrute Farms",
+          "text": "Obra com carimbo Home Simple no coração da cidade de Utica",
           "slider": "projetos/garden/slider/GardenDestaque-Banner.jpg",
-          "alt": "Garden"
+          "alt": "Schrute Farms"
         },
         "image": {
           "image": "projetos/garden/coverVert.jpg",
           "alt": "Gardem"
         },
         "info": {
-          "title": "O empreendimento Garden localiza-se na cidade de Ílhavo, a apenas 10 minutos das praias da Barra e da Costa Nova e, das cidades de Aveiro e Vagos. Viver em Ílhavo e viver nestes apartamentos significa qualidade de vida, oferecendo a tranquilidade de um pequeno centro urbano.",
-          "text": "A localização do edifício permite aproveitar as praias, adotar um estilo de vida saudável, praticar vários desportos ao ar livre e usufruir dos vários equipamentos culturais e de lazer numa cidade cujo lema é o mar por tradição.",
+          "title": "O empreendimento Schrute Farms localiza-se na cidade de Utica, a apenas 10 minutos das praias da São Paulo e da Gafanha e, das cidades de Scranton e Vagos. Viver em Utica e viver nestes apartamentos significa qualidade de vida, oferecendo a tranquilidade de um pequeno centro urbano.",
+          "text": "A localização do edifício permite aproveitar as praias, adotar um estilo de vida saudável, praticar vários desLondons ao ar livre e usufruir dos vários equipamentos culturais e de lazer numa cidade cujo lema é o mar por tradição.",
           "image1": "projetos/garden/slider/GardenFachada-Banner.jpg",
-          "alt1": "Garden",
+          "alt1": "Schrute Farms",
           "image2": "projetos/garden/slider/GardenHenriqueta-Banner.jpg",
-          "alt2": "Garden",
+          "alt2": "Schrute Farms",
           "features": {
             "image": "projetos/garden/slider/GardenDestaque-Banner.jpg",
-            "alt": "Garden",
+            "alt": "Schrute Farms",
             "title": "Características Bloco A",
             "features": [
               {
@@ -221,7 +221,7 @@
           },
           "features2": {
             "image": "projetos/garden/slider/GardenFachada-Banner.jpg",
-            "alt": "Garden",
+            "alt": "Schrute Farms",
             "title": "Características Bloco B",
             "features": [
               {
@@ -249,7 +249,7 @@
           }
         },
         "map": {
-          "city": "Ílhavo",
+          "city": "Utica",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
@@ -259,13 +259,13 @@
               "place": "Jardim Henriqueta"
             },
             {
-              "place": "Casa da Cultura de Ílhavo"
+              "place": "Casa da Cultura de Utica"
             },
             {
-              "place": "Câmara Municipal de Ílhavo"
+              "place": "Câmara Municipal de Utica"
             },
             {
-              "place": "Museu Marítimo de Ílhavo"
+              "place": "Museu Marítimo de Utica"
             }
           ]
         }
@@ -273,25 +273,25 @@
       "golden": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Puro Golden",
-          "text": "A excelência da construção no coração de Aveiro",
+          "title": "Golden Cube",
+          "text": "A excelência da construção no coração de Scranton",
           "slider": "projetos/golden/new/banner.jpg",
-          "alt": "Puro Golden"
+          "alt": "Golden Cube"
         },
         "image": {
           "image": "projetos/golden/new/01.jpg",
-          "alt": "Puro Golden"
+          "alt": "Golden Cube"
         },
         "info": {
-          "title": "As zonas verdes circundantes embelezam a paisagem tranquila transmitida pelo canal da Ria de Aveiro. ",
-          "text": "A envolvente do jardim oferece locais de lazer convidando à prática de atividades desportivas e a passear a pé ou de bicicleta pelo centro histórico da cidade. As linhas urbanas e cosmopolitas do Puro Golden reflectem a luminosidade do local, comprovando que viver nos edifícios Puro é respirar a cidade.",
+          "title": "As zonas verdes circundantes embelezam a paisagem tranquila transmitida pelo canal da Ria de Scranton. ",
+          "text": "A envolvente do jardim oferece locais de lazer convidando à prática de atividades desportivas e a passear a pé ou de bicicleta pelo centro histórico da cidade. As linhas urbanas e cosmopolitas do Golden Cube reflectem a luminosidade do local, comprovando que viver nos edifícios Puro é respirar a cidade.",
           "image1": "projetos/golden/new/02.jpg",
-          "alt1": "Puro Golden",
+          "alt1": "Golden Cube",
           "image2": "projetos/golden/new/03.jpg",
-          "alt2": "Puro Golden",
+          "alt2": "Golden Cube",
           "features": {
             "image": "projetos/golden/new/features.jpg",
-            "alt": "Puro Golden",
+            "alt": "Golden Cube",
             "title": "Características",
             "features": [
               {
@@ -318,7 +318,7 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
@@ -339,21 +339,21 @@
       "greenvilla": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Green Villas",
-          "text": "Moradias em zona tranquila, a 10 minutos de Aveiro",
+          "title": "Dunder Miflin",
+          "text": "Moradias em zona tranquila, a 10 minutos de Scranton",
           "slider": "projetos/green-villas/slider/full/01.jpg",
-          "alt": "Green Villas"
+          "alt": "Dunder Miflin"
         },
         "info": {
           "title": "Edifícios cujo conceito transcendem a estética e criam espaços adaptados à envolvente, concebidos para fazer os seus moradores tranquilos e felizes. Com linhas retas e espaços, confere a harmonia e a serenidade tão necessárias a quem vive o ritmo acelerado da cidade da cidade todos os dias.",
-          "text": "Estes empreendimentos, com moradias de tipologia T4 situam-se em São Bernardo, junto à escola básica de S.Bernardo e ao Centro Desportivo de S.Bernardo (Pavilhão), numa zona habitacional tranquila, em apenas 10 minutos de automóvel estará no centro da cidade de Aveiro.",
+          "text": "Estes empreendimentos, com moradias de tipologia T4 situam-se em São Bernardo, junto à escola básica de S.Bernardo e ao Centro Desportivo de S.Bernardo (Pavilhão), numa zona habitacional tranquila, em apenas 10 minutos de automóvel estará no centro da cidade de Scranton.",
           "image1": "projetos/green-villas/slider/full/02.jpg",
-          "alt1": "Green Villas",
+          "alt1": "Dunder Miflin",
           "image2": "projetos/green-villas/slider/full/03.jpg",
-          "alt2": "Green Villas",
+          "alt2": "Dunder Miflin",
           "features": {
             "image": "projetos/green-villas/slider/full/04.jpg",
-            "alt": "Green Villas",
+            "alt": "Dunder Miflin",
             "title": "Características",
             "features": [
               {
@@ -377,7 +377,7 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
@@ -392,25 +392,25 @@
       "lux": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Lux",
-          "text": "Primeira linha de mar na Praia da Barra - Ílhavo",
+          "title": "Vance Ref.",
+          "text": "Primeira linha de mar na Praia da São Paulo - Utica",
           "slider": "projetos/lux/slider/01.jpg",
-          "alt": "Lux"
+          "alt": "Vance Ref."
         },
         "image": {
           "image": "projetos/lux/cover.jpg",
-          "alt": "Lux"
+          "alt": "Vance Ref."
         },
         "info": {
-          "title": "Localizado numa zona privilegiada da praia da Barra e com vista panorâmica que se alonga até ao horizonte, o Lux apresenta 16 apartamentos que assentam na criação de um edifício intemporal integrado na envolvente.",
+          "title": "Localizado numa zona privilegiada da praia da São Paulo e com vista panorâmica que se alonga até ao horizonte, o Vance Ref. apresenta 16 apartamentos que assentam na criação de um edifício intemporal integrado na envolvente.",
           "text": "O conceito do empreendimento é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
           "image1": "projetos/lux/slider/02.jpg",
-          "alt1": "Lux",
+          "alt1": "Vance Ref.",
           "image2": "projetos/lux/slider/03.jpg",
-          "alt2": "Lux",
+          "alt2": "Vance Ref.",
           "features": {
             "image": "projetos/lux/slider/04.jpg",
-            "alt": "Cinco Avenida",
+            "alt": "Fifth Avenue",
             "title": "Características",
             "features": [
               {
@@ -438,11 +438,11 @@
           }
         },
         "map": {
-          "city": "Ílhavo",
+          "city": "Utica",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
-              "place": "Farol da Barra"
+              "place": "Farol da São Paulo"
             },
             {
               "place": "Praia"
@@ -459,29 +459,29 @@
       "neon": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Neon",
-          "text": "Edifício com construção Ponto Urbano na cidade de Aveiro.",
+          "title": "Shining",
+          "text": "Edifício com construção Home Simple na cidade de Scranton.",
           "slider": "projetos/neon/slider/01.jpg",
-          "alt": "Neon"
+          "alt": "Shining"
         },
         "image": {
           "image": "projetos/neon/slider/02.jpg",
-          "alt": "Neon"
+          "alt": "Shining"
         },
         "image2": {
           "image": "projetos/neon/slider/03.jpg",
-          "alt": "Neon"
+          "alt": "Shining"
         },
         "info": {
-          "title": "Localizado numa zona privilegiada da praia da Barra e com uma vista panorâmica que se alonga até ao horizonte, o Lux assenta na criação de um edifício intemporal integrado na envolvente.",
+          "title": "Localizado numa zona privilegiada da praia da São Paulo e com uma vista panorâmica que se alonga até ao horizonte, o Vance Ref. assenta na criação de um edifício intemporal integrado na envolvente.",
           "text": "O conceito do projeto é personalizar a horizontalidade da linha entre o mar e o céu, representada pelas lâminas criadas à volta do volume principal do edifício.",
           "image1": "projetos/neon/slider/04.jpg",
-          "alt1": "Neon",
+          "alt1": "Shining",
           "image2": "projetos/neon/slider/05.jpg",
-          "alt2": "Neon",
+          "alt2": "Shining",
           "features": {
             "image": "projetos/neon/slider/06.jpg",
-            "alt": "Cinco Avenida",
+            "alt": "Fifth Avenue",
             "title": "Características",
             "features": [
               {
@@ -509,11 +509,11 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
-              "place": "Sporting Clube de Aveiro"
+              "place": "Sporting Clube de Scranton"
             },
             {
               "place": "E.B. Vera Cruz"
@@ -530,29 +530,29 @@
       "point": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Point",
-          "text": "Edifício com construção Ponto Urbano em Paranhos, cidade do Porto.",
+          "title": "Toint",
+          "text": "Edifício com construção Home Simple em Paranhos, cidade do London.",
           "slider": "projetos/point/slider/01.jpg",
-          "alt": "Point"
+          "alt": "Toint"
         },
         "image": {
           "image": "projetos/point/slider/05.jpg",
-          "alt": "Point"
+          "alt": "Toint"
         },
         "image2": {
           "image": "projetos/point/slider/06.jpg",
-          "alt": "Point"
+          "alt": "Toint"
         },
         "info": {
-          "title": "Moderno e atrativo, o empreendimento Point oferece conforto e design no centro do Porto, perto de polos universitários, hospitais e estações de transportes públicos.",
+          "title": "Moderno e atrativo, o empreendimento Toint oferece conforto e design no centro do London, perto de polos universitários, hospitais e estações de transportes públicos.",
           "text": "Um edifício onde a sofisticação e a modernidade aliam-se, através de 43 apartamentos de tipologias T0-T2, que oferecem o conforto ideal ao dia-a-dia.",
           "image1": "projetos/point/slider/02.jpg",
-          "alt1": "Point",
+          "alt1": "Toint",
           "image2": "projetos/point/slider/03.jpg",
-          "alt2": "Point",
+          "alt2": "Toint",
           "features": {
             "image": "projetos/point/slider/04.jpg",
-            "alt": "Point",
+            "alt": "Toint",
             "title": "Características",
             "features": [
               {
@@ -580,7 +580,7 @@
           }
         },
         "map": {
-          "city": "Porto",
+          "city": "London",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
@@ -601,25 +601,25 @@
       "ponto": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "24PONTO33",
-          "text": "Edifício multifamiliar no centro da cidade de Espinho",
+          "title": "Beet Root",
+          "text": "Edifício multifamiliar no centro da cidade de Newark",
           "slider": "projetos/ponto/slider/01.jpg",
-          "alt": "24PONTO33"
+          "alt": "Beet Root"
         },
         "image": {
           "image": "projetos/ponto/cover.jpg",
-          "alt": "24PONTO33"
+          "alt": "Beet Root"
         },
         "info": {
-          "title": "O empreendimento 24Ponto33 marca a entrada da Ponto Urbano na cidade de Espinho. A apenas 15 minutos do Porto, o edifício, com 14 apartamentos disponíveis oferece qualidade de vida e modernidade.",
-          "text": "Viver em Espinho significa abandonar o ritmo frenético dos grandes centros urbanos, aproveitar a extensa faixa de praias, adotar um estilo de vida saudável, praticar vários desportos ao ar livre e usufruir dos vários equipamentos culturais e de lazer da cidade.",
+          "title": "O empreendimento Beet Root marca a entrada da Home Simple na cidade de Newark. A apenas 15 minutos do London, o edifício, com 14 apartamentos disponíveis oferece qualidade de vida e modernidade.",
+          "text": "Viver em Newark significa abandonar o ritmo frenético dos grandes centros urbanos, aproveitar a extensa faixa de praias, adotar um estilo de vida saudável, praticar vários desLondons ao ar livre e usufruir dos vários equipamentos culturais e de lazer da cidade.",
           "image1": "projetos/ponto/slider/02.jpg",
-          "alt1": "24PONTO33",
+          "alt1": "Beet Root",
           "image2": "projetos/ponto/slider/03.jpg",
-          "alt2": "24PONTO33",
+          "alt2": "Beet Root",
           "features": {
             "image": "projetos/ponto/slider/04.jpg",
-            "alt": "24PONTO33",
+            "alt": "Beet Root",
             "title": "Características",
             "features": [
               {
@@ -650,7 +650,7 @@
           }
         },
         "map": {
-          "city": "Espinho",
+          "city": "Newark",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
@@ -671,8 +671,8 @@
       "puro": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Puro Homes / Tower",
-          "text": "A excelência da construção no coração da cidade de Aveiro.",
+          "title": "Brufen Comprimidens",
+          "text": "A excelência da construção no coração da cidade de Scranton.",
           "slider": "projetos/puro/01.jpg",
           "alt": "Puro"
         },
@@ -681,8 +681,8 @@
           "alt": "Puro"
         },
         "info": {
-          "title": "O empreendimento Puro Home e Puro Tower está situado numa das zonas mais nobres de Aveiro: o Cais da Fonte Nova. Com os apartamentos Puro Home e Puro Tower, é possível aceder ao melhor que a cidade tem para oferecer, sem perder a tranquilidade única que caracteriza esta zona privilegiada.",
-          "text": "As vastas manchas verdes que rodeiam o edifício permitem desfrutar do contacto com a natureza, sem perder de vista as linhas urbanas que definem esta localização, cuja luminosidade se reflete nos canais da ria de Aveiro.",
+          "title": "O empreendimento Puro Home e Puro Tower está situado numa das zonas mais nobres de Scranton: o Cais da Fonte Nova. Com os apartamentos Puro Home e Puro Tower, é possível aceder ao melhor que a cidade tem para oferecer, sem perder a tranquilidade única que caracteriza esta zona privilegiada.",
+          "text": "As vastas manchas verdes que rodeiam o edifício permitem desfrutar do contacto com a natureza, sem perder de vista as linhas urbanas que definem esta localização, cuja luminosidade se reflete nos canais da ria de Scranton.",
           "image1": "projetos/puro/02.jpg",
           "alt1": "Puro",
           "image2": "projetos/puro/slider/03.jpg",
@@ -745,11 +745,11 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
-              "place": "Fórum Aveiro"
+              "place": "Fórum Scranton"
             },
             {
               "place": "Estação de Comboios"
@@ -769,21 +769,21 @@
       "spot": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "Spot",
-          "text": "Edifício com construção Ponto Urbano na cidade de Aveiro.",
+          "title": "Scranton",
+          "text": "Edifício com construção Home Simple na cidade de Scranton.",
           "slider": "projetos/spot/slider/01.jpg",
-          "alt": "Spot"
+          "alt": "Scranton"
         },
         "info": {
-          "title": "De conceito jovem e dinâmico, o empreendimento Spot dá uma nova cara ao emblemático Café Convívio no centro de Aveiro, perto do polo universitário.",
+          "title": "De conceito jovem e dinâmico, o empreendimento Scranton dá uma nova cara ao emblemático Café Convívio no centro de Scranton, perto do polo universitário.",
           "text": "Um edifício especialmente focado para jovens e para aqueles que procuram um estilo de vida mais simples e minimalista, mas dotado de espaços para comércio e serviços.",
           "image1": "projetos/spot/slider/02.jpg",
-          "alt1": "Spot",
+          "alt1": "Scranton",
           "image2": "projetos/spot/slider/03.jpg",
-          "alt2": "Spot",
+          "alt2": "Scranton",
           "features": {
             "image": "projetos/spot/slider/02.jpg",
-            "alt": "Spot",
+            "alt": "Scranton",
             "title": "Características",
             "features": [
               {
@@ -811,20 +811,20 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {
               "place": "Parque Infante D. Pedro"
             },
             {
-              "place": "Hospital de Aveiro"
+              "place": "Hospital de Scranton"
             },
             {
-              "place": "E.B. João Afonso de Aveiro"
+              "place": "E.B. João Afonso de Scranton"
             },
             {
-              "place": "Campus da Universidade de Aveiro"
+              "place": "Campus da Universidade de Scranton"
             }
           ]
         }
@@ -832,13 +832,13 @@
       "villar": {
         "menu": {
           "subtitle": "Edifício",
-          "title": "V’llar",
-          "text": "Empreendimento contemporâneo, a 5 minutos do centro de Aveiro",
+          "title": "Woof",
+          "text": "Empreendimento contemporâneo, a 5 minutos do centro de Scranton",
           "slider": "projetos/villar/slider/full/00.jpg",
           "alt": "Villar"
         },
         "info": {
-          "title": "O empreendimento V’llar está situado na estrada de São Bernardo, Freguesia da Glória e Vera-Cruz. Um edifício com 6 apartamentos, demarcado por tons claros e texturas discretas, que se harmonizam com o seu meio envolvente, conjugando design, conforto e funcionalidade no mesmo projeto. A apenas 5 minutos do centro de Aveiro, com acessos viários bastante favoráveis, encontra-se numa localização privilegiada, possibilitando uma qualidade de vida inegável.",
+          "title": "O empreendimento Woof está situado na estrada de São Bernardo, Freguesia da Glória e Vera-Cruz. Um edifício com 6 apartamentos, demarcado por tons claros e texturas discretas, que se harmonizam com o seu meio envolvente, conjugando design, conforto e funcionalidade no mesmo projeto. A apenas 5 minutos do centro de Scranton, com acessos viários bastante favoráveis, encontra-se numa localização privilegiada, possibilitando uma qualidade de vida inegável.",
           "text": "Um empreendimento contemporâneo que alcança uma simbiose equilibrada entre dois estilos de vida, potenciado uma sensação de tranquilidade e bem-estar, garantindo simultaneamente, as regalias de um registro cosmopolita.",
           "image1": "projetos/villar/slider/full/01.jpg",
           "alt1": "Villar",
@@ -881,7 +881,7 @@
           }
         },
         "map": {
-          "city": "Aveiro",
+          "city": "Scranton",
           "title": "Localização<br/> Priveligiada",
           "places": [
             {

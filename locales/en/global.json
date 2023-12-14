@@ -43,20 +43,20 @@
       "interest": "I am interested in knowing more about...",
       "citygroup": [
         {
-          "title": "Aveiro",
+          "title": "Scranton",
           "group": ["Dormitory", "Arcade", "Sky", "Browne"]
         },
         {
-          "title": "Sun",
-          "group": ["Sun"]
+          "title": "London",
+          "group": ["London"]
         },
         {
-          "title": "Ílhavo",
-          "group": ["Solar", "Wind"]
+          "title": "Utica",
+          "group": ["Madrid", "Bragança"]
         },
         {
-          "title": "Espinho",
-          "group": ["Earth"]
+          "title": "Newark",
+          "group": ["Bruxels"]
         }
       ],
       "message": "Message:",

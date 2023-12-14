@@ -9,7 +9,7 @@ import logo from "../images/logo-white.svg"
 
 const MainBanner = ({ data, white }) => (
   <StyledBanner white={white}>
-    <Image src={data.slider} alt="Ponto Urbano" />
+    <Image src={data.slider} alt="Home Simple" />
     <div className="content">
       <div className="logo">
         <Link to="/" className="logoHome">

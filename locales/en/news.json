@@ -1,9 +1,0 @@
-{
-    "news": {
-        "menu": {
-            "title": "<b>News</b><br/> Ponto Urbano",
-            "slider": "news/banner.jpg"
-        },
-        "destaque": 0
-    }
-}
