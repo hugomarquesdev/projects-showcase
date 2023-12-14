@@ -8,7 +8,7 @@ Website / Webapp designed to showcase a variety of projects using Gatsby.
 
 - Map
 - Form
-- Multiple Translations
+- Multiple Languages
 - Responsiveness 
 
 ## Technologies Used
