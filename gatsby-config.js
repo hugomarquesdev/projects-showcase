@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-PX5KKZ9",
+        id: "GTM-EXAMPLE",
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
       },
@@ -91,14 +91,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: "573207670072759",
+        pixelId: "999999999999999",
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-144585811-1",
+        trackingId: "UA-999999999-1",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
@@ -114,7 +114,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "pontourbano.pt",
+        cookieDomain: "astounding-biscuit-9585ad.netlify.app",
       },
     },
     `gatsby-plugin-remove-serviceworker`,
@@ -125,7 +125,7 @@ module.exports = {
         languages: [`pt`, `en`],
         defaultLanguage: `pt`,
         generateDefaultLanguagePage: true,
-        siteUrl: `https://pontourbano.pt/`,
+        siteUrl: `https://astounding-biscuit-9585ad.netlify.app/`,
         i18nextOptions: {
           interpolation: {
             escapeValue: false, // not needed for react as it escapes by default
