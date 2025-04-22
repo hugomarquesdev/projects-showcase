@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        id: "GTM-PX5KKZ9",
+        id: "",
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
       },
@@ -91,14 +91,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: "573207670072759",
+        pixelId: "",
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-144585811-1",
+        trackingId: "",
         // Defines where to place the tracking script - `true` in the head and `false` in the body
         head: false,
         // Setting this parameter is optional
@@ -114,7 +114,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "pontourbano.pt",
+        cookieDomain: "",
       },
     },
     `gatsby-plugin-remove-serviceworker`,
@@ -150,7 +150,7 @@ module.exports = {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
-          "https://pontourbano.us4.list-manage.com/subscribe/post?u=452b46dc8d20609e89cf4d2ed&amp;id=577ebc9024", // string; add your MC list endpoint here
+          "", // string; add your MC list endpoint here
         timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
     },
