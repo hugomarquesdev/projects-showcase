@@ -54,6 +54,14 @@ module.exports = {
         queries: myCustomQueries,
       },
     },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-PX5KKZ9",
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     // `gatsby-transformer-json`,
@@ -80,6 +88,35 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-htaccess`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: "573207670072759",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: "UA-144585811-1",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Defers execution of google analytics script after page load
+        defer: false,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "pontourbano.pt",
+      },
+    },
     `gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-plugin-react-i18next`,
@@ -113,7 +150,7 @@ module.exports = {
       resolve: "gatsby-plugin-mailchimp",
       options: {
         endpoint:
-          "", // string; add your MC list endpoint here
+          "https://pontourbano.us4.list-manage.com/subscribe/post?u=452b46dc8d20609e89cf4d2ed&amp;id=577ebc9024", // string; add your MC list endpoint here
         timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
       },
     },
